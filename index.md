@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Annodoc documentation
+title: Guía de Anotación de Información Sensible en Textos Médicos
 ---
 
 This is are an example of documentation created using the Annodoc
