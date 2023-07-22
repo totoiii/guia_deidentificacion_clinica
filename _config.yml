@@ -12,7 +12,7 @@ markdown_ext: md
 # Site settings
 
 name: Annodoc
-homeurl: ""
+homeurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
 editurl: "https://github.com/totoiii/clinical_deidentification_guideline/edit/master"
 issueurl: "https://github.com/totoiii/clinical_deidentification_guideline/issues"
 
