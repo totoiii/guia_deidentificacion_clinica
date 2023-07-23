@@ -3,19 +3,21 @@ layout: entry
 title: Guía de Anotación de Información Sensible en Textos Médicos
 ---
 
-Luis Miranda., Jocelyn Dunstan.
+Luis Miranda, Jocelyn Dunstan.
 
-## Table of contents
+En este documento de describen las instrucciones/normas para realizar la deidentificación manual de textos clínicos, específicamente anamnesis y relatos de admisión
 
-* [What is Annodoc?](#what-is-annodoc)
-* [How does it work?](#how-does-it-work)
-* [Getting started](#getting-started)
-* [Editing documents](#editing-documents)
-* [Adding documents](#adding-documents)
-* [Visualizations](#visualizations)
-* [Collections](#collections)
-* [Configuration](#configuration)
-* [Troubleshooting](#troubleshooting)
+## Tabla de Contenidos
+
+* [Introducción](#what-is-annodoc)
+* [Anamnesis](#how-does-it-work)
+* [Relato de Admisión](#getting-started)
+* [Reglas de anotación](#editing-documents)
+* [Etiquetas](#adding-documents)
+* [Procedimiento de etiquetado](#visualizations)
+* [Casos típicos](#collections)
+* [Referencias](#configuration)
+* [Glosario](#troubleshooting)
 
 ## What is Annodoc?
 
