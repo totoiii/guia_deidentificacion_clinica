@@ -1,12 +1,9 @@
 ---
 layout: entry
-title: Annodoc annotation documentation support system
+title: Guía de Anotación de Información Sensible en Textos Médicos
 ---
 
-This is a page of documentation created using the Annodoc
-system. It serves a double purpose as *documentation* for the Annodoc
-system and as a *template* that you can use as a starting point for
-creating your own documentation using annodoc.
+Luis Miranda., Jocelyn Dunstan.
 
 ## Table of contents
 
