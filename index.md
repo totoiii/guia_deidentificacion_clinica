@@ -9,7 +9,7 @@ En este documento de describen las instrucciones/normas para realizar la deident
 
 ## Tabla de Contenidos
 
-* [Introducción](#what-is-annodoc)
+* [Introducción](#full-date)
 * [Anamnesis](#how-does-it-work)
 * [Relato de Admisión](#getting-started)
 * [Reglas de anotación](#editing-documents)
@@ -19,20 +19,14 @@ En este documento de describen las instrucciones/normas para realizar la deident
 * [Referencias](#configuration)
 * [Glosario](#troubleshooting)
 
-## What is Annodoc?
+## Full Date
 
-Annodoc is a documentation support system focusing in particular on
-guidelines for text annotation. The system combines ease of editing
-using a simple plain-text like format with support for the
-visualization of complex, structured text annotation and close
-integration with version control.
+Corresponde a cualquier expresión que tenga Día, mes y año en cualquier formato. Los tres elementos deben estár presente. Es una fecha específica.
 
-A brief
-[introduction of Annodoc](http://www2.lingfil.uu.se/SLTC2014/abstracts/sltc2014_submission_32.pdf)
-[PDF] was presented at
-[SLTC'14](http://www2.lingfil.uu.se/SLTC2014/).
-
-For example, consider the following fragment of documentation
+~~~ ann
+...Fecha accidente 23/09/2020....
+T1 Full_Date 17 26 23/09/2020
+~~~
 
 <div class="documentation-example" markdown="1">
 Mentions of person names are annotated as [PERSON]()
