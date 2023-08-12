@@ -9,7 +9,7 @@ En este documento de describen las instrucciones/normas para realizar la deident
 
 ## Tabla de Contenidos
 
-* [Introducción](#full-date)
+* [Full_Date](#full-date)
 * [Anamnesis](#how-does-it-work)
 * [Relato de Admisión](#getting-started)
 * [Reglas de anotación](#editing-documents)
