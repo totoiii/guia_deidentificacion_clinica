@@ -17,9 +17,10 @@ markdown_ext: md
 
 name: Annodoc
 baseurl: "/annodoc"
-homeurl: "https://github.com/spyysalo/annodoc/"
-editurl: "https://github.com/spyysalo/annodoc/edit/gh-pages"
-issueurl: "https://github.com/spyysalo/annodoc/issues"
+homeurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
+First_Nameurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
+editurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
+issueurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
 
 ##############################################################################
 
