@@ -2,19 +2,18 @@
 
   <div class="wrap">
 
-    {% if site.homeurl %}<a class="topnav" href="{{ site.homeurl }}">home</a>{% endif %}
-    {% if site.Full_Dateurl %}<a class="topnav" href="{{ site.Full_Dateurl }}">Full_Date</a>{% endif %}
-    {% if site.Date_Parturl %}<a class="topnav" href="{{ site.Date_Parturl }}">Date_Part</a>{% endif %}
-    {% if site.Timeurl %}<a class="topnav" href="{{ site.Timeurl }}">Time</a>{% endif %}
-    {% if site.Ageurl %}<a class="topnav" href="{{ site.Ageurl }}">Age</a>{% endif %}
-    {% if site.Companyurl %}<a class="topnav" href="{{ site.Companyurl }}">Company</a>{% endif %}
-    {% if site.Locationurl %}<a class="topnav" href="{{ site.Locationurl }}">Location</a>{% endif %}
-    {% if site.First_Nameurl %}<a class="topnav" href="{{ site.First_Nameurl }}">First_Name</a>{% endif %}
-    {% if site.Last_Nameurl %}<a class="topnav" href="{{ site.Last_Nameurl }}">Last_Name</a>{% endif %}
-    {% if site.Ocupationurl %}<a class="topnav" href="{{ site.Ocupationurl }}">Ocupation</a>{% endif %}
-    {% if site.Ocupation_Infourl %}<a class="topnav" href="{{ site.Ocupation_Infourl }}">Ocupation_Info</a>{% endif %}
+    {% if site.homeurl %}<a class="topnav" href="{{ site.homeurl }}">Inicio</a>{% endif %}
 
-    {% if site.name %}<span class="site-title">{{ site.name }}</span>{% endif %}
+    {% for e in site.entity %}
+    <a class="topnav" href="{{ site.homeurl }}{{ e.url | remove_first:'/' }}">{{ e.title }}</a>
+    {% endfor %}
+    {% for r in site.relation %}
+    <a class="topnav" href="{{ site.homeurl }}{{ r.url | remove_first:'/' }}">{{ r.title }}</a>
+    {% endfor %}
+    {% for t in site.attributes %}
+    <a class="topnav" href="{{ site.homeurl }}{{ t.url | remove_first:'/' }}">{{ t.title }}</a>
+    {% endfor %}
+    {% if site.name %}<span class="site-title-topnav">{{ site.name }}</span>{% endif %}
 
   </div>
 
