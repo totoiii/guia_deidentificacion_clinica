@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Disease"
+title: "Time"
 shortdef: "Enfermedades mapeables a un código CIE-10"
 ---
  

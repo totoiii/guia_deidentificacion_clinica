@@ -16,8 +16,8 @@ markdown_ext: md
 # Site settings
 
 name: Annodoc
-baseurl: "/annodoc"
-homeurl: "https://plncmm.github.io/annodoc/"
+baseurl: "/clinical_deidentification_guideline"
+homeurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
 
 ##############################################################################
 

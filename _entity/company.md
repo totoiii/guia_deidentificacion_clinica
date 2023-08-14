@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Finding"
+title: "Company"
 shortdef: "Hallazgo, Signos o Síntomas y Resultados de laboratorio u otras pruebas"
 ---
 

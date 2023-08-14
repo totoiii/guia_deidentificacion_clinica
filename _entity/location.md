@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Medication"
+title: "Location"
 shortdef: "Todas las menciones de medicamentos o drogas empleadas"
 ---
 

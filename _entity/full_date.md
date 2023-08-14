@@ -1,8 +1,9 @@
 ---
 layout: entry
-title: "Abbreviation"
+title: "Full_Date"
 shortdef: "Procedimiento lingüístico de hacer más corta la morfología de ciertas palabras"
 ---
+
 
 Se realiza empleando métodos como:
 

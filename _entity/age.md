@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Family Member"
+title: "Age"
 shortdef: "Etiqueta para miembros de la familia"
 ---
 

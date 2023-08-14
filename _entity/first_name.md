@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Procedure"
+title: "First_Name"
 shortdef: "Procedimientos diagnósticos, terapéuticos y de laboratorio"
 ---
 

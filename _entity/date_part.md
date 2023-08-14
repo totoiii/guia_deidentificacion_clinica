@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Body Part"
+title: "Date Part"
 shortdef: "Órgano o parte anatómica de una persona"
 ---
 
