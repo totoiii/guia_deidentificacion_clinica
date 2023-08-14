@@ -3,8 +3,12 @@
 source: .
 destination: ./_site
 markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
 permalinks: pretty
-safe: true
+# safe: true
 markdown_ext: md
 
 ##############################################################################
@@ -12,24 +16,17 @@ markdown_ext: md
 # Site settings
 
 name: Annodoc
-homeurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Full_Dateurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Date_Parturl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Timeurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Ageurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Companyurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Locationurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-First_Nameurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Last_Nameurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Ocupationurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-Ocupation_Infourl: "https://totoiii.github.io/clinical_deidentification_guideline/"
-
+baseurl: "/annodoc"
+homeurl: "https://github.com/spyysalo/annodoc/"
+editurl: "https://github.com/spyysalo/annodoc/edit/gh-pages"
+issueurl: "https://github.com/spyysalo/annodoc/issues"
 
 ##############################################################################
 
 # Collection settings
 
 collections:
-  type:
+  entity:
     output: true
-
+  relation:
+    output: true
