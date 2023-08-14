@@ -16,10 +16,8 @@ markdown_ext: md
 # Site settings
 
 name: Annodoc
-baseurl: "/annodoc"
-homeurl: "https://github.com/spyysalo/annodoc/"
-editurl: "https://github.com/spyysalo/annodoc/edit/gh-pages"
-issueurl: "https://github.com/spyysalo/annodoc/issues"
+baseurl: "/clinical_deidentification_guideline"
+homeurl: "https://totoiii.github.io/clinical_deidentification_guideline/"
 
 ##############################################################################
 
@@ -28,5 +26,11 @@ issueurl: "https://github.com/spyysalo/annodoc/issues"
 collections:
   entity:
     output: true
+  finding:
+    output: true
+  procedure:
+    output: true
   relation:
+    output: true
+  ent_attributes:
     output: true
