@@ -1,46 +1,21 @@
 ---
 layout: entry
 title: "Company"
-shortdef: "Hallazgo, Signos o Síntomas y Resultados de laboratorio u otras pruebas"
+shortdef: "Cualquier nombre de alguna institucióm o que nombre alguna institución general"
 ---
 
-Los Hallazgos o Findings se definen como observaciones, juicios o evaluaciones que se hacen sobre los pacientes. A diferencia de las enfermedades pueden ser normales (pero no necesariamente) y algunos pueden existir sólo en un momento dado (por ejemplo, un nivel de sodio en el suero). Todo evento ginecologico fisiologico, se considerara normal y se tiene que incluir como hallazgo (ej. embarazo). Además, dentro de la etiqueta “Finding” se pueden anotar dos subentidades: 
+Una institución corresponde a una organización, estructura o entidad establecida dentro de una sociedad para cumplir con una función específica, mantener ciertos valores, normas o tradiciones, y satisfacer necesidades colectivas. Estas entidades pueden ser de naturaleza pública o privada y abarcan una amplia gama de campos, como la educación, la religión, la política, la economía y la cultura, entre otras.
 
-  * **Signos o síntomas:** los signos corresponden a manifestaciones objetivas usualmente determinadas mediante la exploración médica. Los síntomas por el contrario, son elementos subjetivos percibidos y expresados por el paciente. Vea las reglas de anotación específicas de ésta subentidad [aquí](../finding/Sign%20or%20Symptom).
-
-  * **Resultados de exámenes de laboratorio u otras pruebas:** Cualquier medición o evaluación obtenida a partir de un exámen de apoyo diagnóstico (Ej. laboratorio, imagenológico). Vea las reglas de anotación específicas de ésta subentidad [aquí](../finding/Laboratory%20or%20Test%20Result).
-
-En caso de presentar dudas en cuanto a la categoría a la que pertenece una entidad, puede resolverlas empleando el Metatesauro UMLS registrandose en: [UMLS Terminology Services](https://uts.nlm.nih.gov//license.html).  
-
-A continuación se encuentran las reglas de anotación de Findings que NO corresponden a ninguna de las dos subentidades anteriores.
+A continuación se encuentran las reglas de anotación de Company.
 
 ## Reglas positivas
 
-* Etiquetar todas las menciones que indiquen ausencia de hallazgos patológicos.
+* Etiquetar todas las menciones a nombres de instituciones.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-Evoluciona hemodinámicamente estable, afebril…
-T1 Clinical_Finding 11 36 
-T2 Clinical_Finding 38 45 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Ha estado de buen animo…
-T1 Clinical_Finding 13 23 
-~~~
-</div>
-
-* Anotar todos los antecedentes gineco-obstetricos como hallazgos.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-G1 P1 A0 PAP ATIPICO
-T1 Clinical_Finding 0 2 
-T2 Clinical_Finding 3 5 
-T3 Clinical_Finding 6 8 
+... PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando ...
+T1 Company 17 27
 ~~~
 </div>
 
@@ -57,53 +32,25 @@ T2 Clinical_Finding 34 44
 </div>
 -->
 
-* Anotar como Finding las frases que describen el resultado de tratamientos medicamentosos (pero no el tratamiento en sí).
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Tratamiento con 3 antihipertensivos, sin respuesta al tratamiento derivó...
-T1 Clinical_Finding 37 65 
-A1 Negated T1 
-~~~
-</div>
-
 ## Reglas negativas
 
-* NO anotar tratamientos medicamentosos como hallazgos.
+* NO etiquetar instituciones de salud, ya que tienen su propia etiqueta.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-Tratamiento con 3 antihipertensivos, sin respuesta al tratamiento derivó...
-T1 Clinical_Finding 0 35 
-~~~
-</div>
-
-* NO incluir en la anotación la duración de los hallazgos.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-refiere consumo de alcohol desde hace varios años…
-T1 Clinical_Finding 8 49 
+... Auxiliar de aseo en Hospital del Profesor ...
+T1 Company 27 46
 ~~~
 </div>
 
 ## Reglas multipalabra
 
-* Etiquetar como una sola entidad los hallazgos compuestos por más de una palabra y que estén relacionados con la misma manifestación u observación clínica.
+* Etiquetar como una sola entidad las menciones a .
 
 <div class="annotation-correct" markdown="1">
-Correcto: una entidad
 ~~~ ann
-Orientado en tiempo, espacio, persona.
-T1 Clinical_Finding 0 37 
+... Profesor en Colegio Público b-72 en su jornada laboral sufrió un accidente ...
+T1 Company 17 33
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
-Correcto: dos entidades
-~~~ ann
-Vigil, atenta invierte series simples
-T1 Clinical_Finding 0 5 
-T2 Clinical_Finding 7 37 
-~~~
-</div>
