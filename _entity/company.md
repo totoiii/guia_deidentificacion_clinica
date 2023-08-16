@@ -14,15 +14,8 @@ A continuación se encuentran las reglas de anotación de Company.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… Hombre de 26 años se accidenta yendo a su hogar … 
-T1 Age 12 19 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-… PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando ...
-T1 Company 17 27 
+... PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando ...
+T1 Company 20 29 
 ~~~
 </div>
 
@@ -30,7 +23,7 @@ T1 Company 17 27
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… Operario en constructora se accidenta mientras se dirigía a su hogar…
+... Operario en constructora se accidenta mientras se dirigía a su hogar ...
 T1 Company 16 27 
 ~~~
 </div>
