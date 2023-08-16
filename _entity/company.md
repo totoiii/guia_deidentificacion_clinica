@@ -21,8 +21,8 @@ T1 Age 12 19
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando …
-T1 Company 17 27
+... PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando ...
+T1 Company 17 27 
 ~~~
 </div>
 
@@ -31,7 +31,7 @@ T1 Company 17 27
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 … Operario en constructora se accidenta mientras se dirigía a su hogar…
-T1 Company 16 27
+T1 Company 16 27 
 ~~~
 </div>
 
@@ -55,7 +55,7 @@ T2 Clinical_Finding 34 44
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 … Auxiliar de aseo en Hospital del Profesor …
-T1 Company 27 46
+T1 Company 27 46 
 ~~~
 </div>
 
@@ -66,7 +66,7 @@ T1 Company 27 46
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 … Profesor en Colegio Público b-72 en su jornada laboral sufrió un accidente…
-T1 Company 17 33
+T1 Company 17 33 
 ~~~
 </div>
 
@@ -75,6 +75,6 @@ T1 Company 17 33
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 … W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo…
-T1 Company 5 24
+T1 Company 5 24 
 ~~~
 </div>
