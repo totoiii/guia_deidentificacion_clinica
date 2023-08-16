@@ -47,8 +47,8 @@ T2 Clinical_Finding 34 44
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-… Auxiliar de aseo en Hospital del Profesor …
-T1 Company 27 46 
+... Auxiliar de aseo en Hospital del Profesor ...
+T1 Company 24 45 
 ~~~
 </div>
 
@@ -58,8 +58,8 @@ T1 Company 27 46
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… Profesor en Colegio Público b-72 en su jornada laboral sufrió un accidente…
-T1 Company 17 33 
+... Se accidentó a las afueras del Colegio Público b-72 en su jornada laboral...
+T1 Company 35 56 
 ~~~
 </div>
 
@@ -67,7 +67,7 @@ T1 Company 17 33
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo…
-T1 Company 5 24 
+... W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo...
+T1 Company 7 27 
 ~~~
 </div>
