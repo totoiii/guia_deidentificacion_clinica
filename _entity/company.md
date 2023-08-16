@@ -10,12 +10,21 @@ A continuación se encuentran las reglas de anotación de Company.
 
 ## Reglas positivas
 
-* Etiquetar todas las menciones a nombres de instituciones.
+* Etiquetar todos nombres de instituciones.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando ...
 T1 Company 17 27
+~~~
+</div>
+
+* Etiquetar todas las menciones de instituciones generales.
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Operario en constructora se accidenta mientras se dirigía a su hogar...
+T1 Company 16 27
 ~~~
 </div>
 
@@ -45,7 +54,7 @@ T1 Company 27 46
 
 ## Reglas multipalabra
 
-* Etiquetar como una sola entidad las menciones a .
+* Etiquetar como una sola entidad las menciones a una institución específica .
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -54,3 +63,11 @@ T1 Company 17 33
 ~~~
 </div>
 
+* Etiquetar como una sola entidad las menciones a una institución general .
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo ...
+T1 Company 5 24
+~~~
+</div>
