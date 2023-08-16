@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Company"
-shortdef: "Cualquier nombre de alguna institucióm o que nombre alguna institución general"
+shortdef: "Nombre o mención de alguna institución específica o general."
 ---
 
 Una institución corresponde a una organización, estructura o entidad establecida dentro de una sociedad para cumplir con una función específica, mantener ciertos valores, normas o tradiciones, y satisfacer necesidades colectivas. Estas entidades pueden ser de naturaleza pública o privada y abarcan una amplia gama de campos, como la educación, la religión, la política, la economía y la cultura, entre otras.
