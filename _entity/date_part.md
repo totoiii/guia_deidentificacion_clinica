@@ -1,14 +1,14 @@
 ---
 layout: entry
 title: "Date Part"
-shortdef: "Órgano o parte anatómica de una persona"
+shortdef: "Etiqueta para un elemento o componentes de una fecha o referencia a una.
 ---
 
-Un parte del cuerpo se considera como un órgano o una parte anatómica de una persona.  También puede definirse como una colección de células y tejidos que están localizados en un área específica o que combinan y llevan a cabo una o más funciones especializadas de un organismo. Se incluyen tanto estructuras gruesas como pequeños componentes de órganos complejos. Se aceptan los términos que describen la parte del cuerpo. Algunas palabras como “proximal”, “descendente”, “ascendente” indican una parte del cuerpo  y deben ser anotadas si referencian la parte específica del mismo (Ej. colon proximal)
+Una fecha se comprende como cualquier expresión que tenga un día, mes y año especifico. Date_part correspondería a una expresión que tenga una o varias componentes de una fecha. También pueden ser expresiones que hagan referencia a una fecha específica.
 
 ## Reglas positivas
 
-* Etiquetar todas las estructuras corporales que pueden definirse anatómicamente.
+* Etiquetar todas las .
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
