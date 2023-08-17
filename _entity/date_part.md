@@ -8,25 +8,43 @@ Una fecha se comprende como cualquier expresión que tenga un día, mes y año e
 
 ## Reglas positivas
 
-* Etiquetar todas las .
+* Etiquetar todas las combinaciones de día, mes y/o año en donde no se expliciten las tres componentes.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… secundario a prurito en piernas …
+... Durante el día 20/3 se devolvía a su casa cuando...
 T1 Body_Part 26 33 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… no se asocia a lesiones en la piel.
+... ocupacion: operario desde agosto del 2006...
+T1 Body_Part 26 33 
+~~~
+</div>
+
+* Etiquetar días de la semana
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... PCTE se accidentó el sabado subiendose a la micro...
+T1 Body_Part 26 33 
+~~~
+</div>
+
+* Etiquetar referencias a fechas con respecto a otra
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+.. El día de ayer se accidentó levantando cemento...
 T1 Body_Part 32 36 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… endometrio engrosado para edad.
+... Desde hace 6 meses inicia con dolor...
 T1 Body_Part 2 12 
 ~~~
 </div>
@@ -34,45 +52,30 @@ T1 Body_Part 2 12
 <div class="annotation-correct" markdown="1">
 Correcto: dos etiquetas separadas
 ~~~ ann
-Cabeza y cuello: Normocraneo…
+... Trabaja los lunes y miercoles desde las 8am hasta las 16pm...
 T1 Body_Part 0 6 
 T2 Body_Part 9 15 
 ~~~
 </div>
 
-* Etiquetar las partes del cuerpo cuando forman parte de un problema médico.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Hígado graso, 
-T1 Body_Part 0 6 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Cáncer de estómago
-T1 Body_Part 10 18 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Dolor en epigastrio
-T1 Body_Part 9 19 
-~~~
-</div>
-
 ## Reglas negativas
 
-* NO etiquetar los casos en los que la estructura corporal se utiliza en sentido figurado.
+* NO etiquetar duraciones de intervalos de tiempo.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-… no tomar la solución en sus manos.
+... Paracetamol c/8hrs durante 3 días.
 T1 Body_Part 30 35 
 ~~~
 </div>
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+... Paracetamol c/8hrs durante 3 días.
+T1 Body_Part 30 35 
+~~~
+</div>
+
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
