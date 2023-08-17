@@ -1,8 +1,10 @@
 ---
 layout: entry
 title: "Date Part"
-shortdef: "Etiqueta para un elemento o componentes de una fecha o referencia a una.
+shortdef: "Etiqueta para un elemento o componentes de una fecha o referencia a una."
 ---
+
+## Reglas positivas
 
 Una fecha se comprende como cualquier expresión que tenga un día, mes y año especifico. Date_part correspondería a una expresión que tenga una o varias componentes de una fecha. También pueden ser expresiones que hagan referencia a una fecha específica.
 
