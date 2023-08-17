@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Age"
-shortdef: "Etiqueta para la edad o referencia a ella de cualquier persona."
+shortdef: "Etiqueta para la edad de una persona o una referencia al rango etario de ella."
 ---
 
 ## Reglas positivas
@@ -25,3 +25,10 @@ T1 Age 7 19
 </div>
 
 
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Paciente joven de 24 acude al consultorio...
+T1 Age 13 18 
+T1 Age 22 24 
+~~~
+</div>
