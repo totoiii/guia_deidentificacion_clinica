@@ -8,7 +8,7 @@ Una fecha se comprende como cualquier expresión que tenga un día, mes y año e
 
 ## Reglas positivas
 
-* Etiquetar todas las combinaciones de día, mes y/o año en donde no se expliciten las tres componentes.
+* Etiquetar todas las combinaciones de día, mes y/o año, excepto cuando se encuentren las 3.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -33,6 +33,15 @@ T1 Body_Part 26 33
 ~~~
 </div>
 
+<div class="annotation-correct" markdown="1">
+Correcto: dos etiquetas separadas
+~~~ ann
+... Trabaja los lunes y miercoles desde 8am hasta 16pm...
+T1 Body_Part 0 6 
+T2 Body_Part 9 15 
+~~~
+</div>
+
 * Etiquetar referencias a fechas con respecto a otra
 
 <div class="annotation-correct" markdown="1">
@@ -49,18 +58,9 @@ T1 Body_Part 2 12
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
-Correcto: dos etiquetas separadas
-~~~ ann
-... Trabaja los lunes y miercoles desde las 8am hasta las 16pm...
-T1 Body_Part 0 6 
-T2 Body_Part 9 15 
-~~~
-</div>
-
 ## Reglas negativas
 
-* NO etiquetar duraciones de intervalos de tiempo.
+* NO etiquetar duraciones de intervalos de tiempo en donde no se pueda llegar a obtener una fecha
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
@@ -71,70 +71,8 @@ T1 Body_Part 30 35
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-... Paracetamol c/8hrs durante 3 días.
+... Sufre de estres ya que tiene libre 3 veces en el mes.
 T1 Body_Part 30 35 
-~~~
-</div>
-
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-… voces que escucha dentro de su cabeza.
-T1 Body_Part 33 39 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-… “un click habia hecho en la cabeza”.
-T1 Body_Part 30 36 
-~~~
-</div>
-
-* No etiquetar las partes del cuerpo cuando son usados como adjetivos.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Lupus cutáneo inactivo…
-T1 Body_Part 6 13 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Expresión facial fija y postura corporal fijas.
-T1 Body_Part 10 16 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Lesión corneal…
-T1 Body_Part 7 14 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Dolor abdominal ...
-T1 Body_Part 6 15 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Desdentamiento total bimaxilar
-T1 Body_Part 21 30 
-~~~
-</div>
-
-*  No anotar las parte del cuerpo que aparecen en abreviaturas aunque se puedan inferir.
-
-<div class="annotation-incorrect" markdown="1">
-Incorrecto: se anota como parte del cuerpo la abreviación de Núcleo Pulposo.
-~~~ ann
-Paciente consulta por antecedente de HNP
-T1 Body_Part 38 40 
 ~~~
 </div>
 
