@@ -14,7 +14,7 @@ Una fecha se define como representación específica de un punto en el tiempo, c
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... El tratamiento comenzará el 23 de agosto de 2020 para abordar los síntomas...
-T1 First_Name 32 52 
+T1 Full_Date 32 52 
 ~~~
 </div>
 
@@ -29,8 +29,8 @@ T1 Full_Date 33 43
 Caso típico: dividir en dos etiquetas
 ~~~ ann
 ...Fecha Accidente: martes 20/05/2021...
-T1 Date_Part 27 37  
-T1 Date_Part 20 26 
+T1 Full_Date 27 37  
+T2 Full_Date 20 26 
 ~~~
 </div>
 
