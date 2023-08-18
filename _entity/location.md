@@ -1,10 +1,9 @@
 ---
 layout: entry
 title: "Location"
-shortdef: "Todas las menciones de medicamentos o drogas empleadas"
+shortdef: "Etiqueta para cualquier lugar o referencia a alguno"
 ---
 
-Deben anotarse en esta clase de entidad todas las menciones de medicamentos o drogas empleadas en el tratamiento y/o prevención de enfermedades, incluyendo marcas comerciales y genéricos, así como también nombres para grupos de medicamentos. 
 
 ## Reglas positivas
 
