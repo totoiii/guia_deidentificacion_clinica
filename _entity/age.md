@@ -29,6 +29,6 @@ T1 Age 7 19
 ~~~ ann
 ... Paciente joven de 24 acude al consultorio...
 T1 Age 13 18 
-T1 Age 22 24 
+T2 Age 22 24 
 ~~~
 </div>
