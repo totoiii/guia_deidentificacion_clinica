@@ -5,275 +5,32 @@ shortdef: "Etiqueta de una fecha exacta o referencia."
 ---
 
 
-Una fecha se define como 
+Una fecha se define como representación específica de un punto en el tiempo, compuesta por el día, mes y año. Se utiliza para identificar cuándo ocurrió o ocurrirá un evento particular.
 
 ## Reglas positivas
 
-* Etiquetar todas las abreviaciones tanto de tipo personal como convencional.
+* Etiquetar cualquier fecha específica.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-Antec de repitencia …
-T1 Abbreviation 0 5 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Pcte persiste Psicótico …
-T1 Abbreviation 0 4 
+... El tratamiento comenzará el 23 de agosto de 2020 para abordar los síntomas...
+T1 First_Name 32 52 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-… resulta normal ECG y Ecocardiograma …
-T1 Abbreviation 17 20 
+... O: guardia de seguridad. FA: 14/05/2018 a las 18:30hrs...
+T1 Full_Date 33 43 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
+Caso típico: dividir en dos etiquetas
 ~~~ ann
-Inicio de quetiapina 25mg
-T1 Abbreviation 23 25 
+...Fecha Accidente: martes 20/05/2021...
+T1 Date_Part 27 37  
+T1 Date_Part 20 26 
 ~~~
 </div>
 
-* Etiquetar las abreviaciones de una letra o símbolo no estándar.
-
-<div class="annotation-correct" markdown="1">
-Correcto: se etiquetan tres abreviaciones
-~~~ ann
-TUS x OH
-T1 Abbreviation 0 3 
-T2 Abbreviation 4 5 
-T3 Abbreviation 6 8 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-Correcto: se etiquetan dos abreviaciones
-~~~ ann
-p hep normales
-T1 Abbreviation 0 1 
-T2 Abbreviation 2 5 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-Correcto: se etiquetan dos abreviaciones
-~~~ ann
-MP  (+)
-T1 Abbreviation 0 2 
-T2 Abbreviation 5 6 
-~~~
-</div>
-
-* Etiquetar todos los símbolos de palabras científicas o técnicas formados por letras convencionales que tienen validez internacional: Ag, Fe.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Na 141, K 4.1, Cl 103
-T1 Abbreviation 0 2 
-T2 Abbreviation 8 9 
-T3 Abbreviation 15 17 
-~~~
-</div>
-
-* Etiquetar las abreviaciones numéricas ordinales conformadas por números y letras.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-10mo día de hospitalización
-T1 Abbreviation 0 4 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Lorazepam 1/2 ampolla  c/u
-T1 Abbreviation 23 26 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-c/8 horas
-T1 Abbreviation 0 2 
-~~~
-</div>
-
-* Anotar los antecedentes gineco-obstetricos como abreviaturas sin incluir la numeración.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-G3 P1 A1
-T1 Abbreviation 0 1 
-T2 Abbreviation 3 4 
-T3 Abbreviation 6 7 
-~~~
-</div>
-
-* Anotar las pruebas de laboratorio que aparezcan de forma abreviada.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-SE ENCUENTRA HbA1C EN 17, TSH 7
-T1 Abbreviation 13 18 
-T2 Abbreviation 26 29 
-~~~
-</div>
-
-* Anotar como abreviaciones los resultados de exámenes que indican positividad o negatividad.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Paciente presenta VDRL +
-T1 Abbreviation 18 22 
-T2 Abbreviation 23 24 
-~~~
-</div>
-
-## Reglas negativas
-
-* NO incluir en la etiqueta los puntos, aunque sean puntos abreviativos. 
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Ac. Valproico
-T1 Abbreviation 0 2 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Dra. Juanita Pérez
-T1 Abbreviation 0 3 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-… despertó a las 7:00 hrs. Plan: …
-T1 Abbreviation 22 26 
-~~~
-</div>
-
-* NO incluir en la etiqueta los paréntesis u otros separadores que no formen parte de la abreviación.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-Trastorno estrés post traumático complejo (DESNOS) 
-T1 Abbreviation 43 49 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Trastorno estrés post traumático complejo (DESNOS) 
-T1 Abbreviation 42 50 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-FP/FR de …
-T1 Abbreviation 0 2 
-T2 Abbreviation 3 5 
-~~~
-</div>
-
-* NO etiquetar abreviaciones correspondientes a nombres o apellidos.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Dra. Juanita Pérez Z. 
-T1 Abbreviation 19 21 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Dra. J. Pérez. 
-T1 Abbreviation 5 7 
-~~~
-</div>
-
-* NO etiquetar las abreviaciones numéricas ordinales convencionales.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-8º día de hospitalización
-T1 Abbreviation 0 2 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Hoy se realizará 3ª sesión de … 
-T1 Abbreviation 17 19 
-~~~
-</div>
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-22º día de hospitalización
-T1 Abbreviation 0 3 
-~~~
-</div>
-
-* NO anotar como abreviaciones los nombres de las vertebras.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-con discopatia de L5-S1
-T1 Abbreviation 18 20 
-T2 Abbreviation 21 23 
-~~~
-</div>
-
-* NO anotar como abreviaciones las evaluaciones semicuantitativas de exámenes.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-Signos de serosis: +++
-T1 Abbreviation 19 22 
-~~~
-</div>
-
-## Reglas multipalabra
-
-* Anotar como una sola mención las abreviaciones que aparecen en el texto separados sólo por espacios o por guiones y que componen una entidad única.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-… diagnósticos de TAB I, y sospecha de …
-T1 Abbreviation 18 23 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-…. ERC-IV recientemente pesquisado…. 
-T1 Abbreviation 3 9 
-~~~
-</div>
-
-* Anotar como una sola mención las abreviaciones que aparecen en el texto aparentemente compuestas por dos palabras pero que componen una entidad única.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-… bioquímico destacan hiperCa 10.5, HipoNa 132
-T1 Abbreviation 22 29 
-T2 Abbreviation 36 42 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-Correcto: se anotan dos abreviaciones
-~~~ ann
-Paracetamol 500 mg xd
-T1 Abbreviation 16 18 
-T2 Abbreviation 19 21 
-~~~
-</div>
