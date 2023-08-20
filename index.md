@@ -102,7 +102,7 @@ Las reglas de anotación se pueden clasificar en 4 tipos:
 * Reglas negativas (Reglas-N): reglas que especifican las entidades que NO hay que anotar.
 * Reglas multipalabra (Regla-M): reglas que especifican si un grupo de palabras debe anotarse bajo una única etiqueta o no.
 
-### Reglas generales
+## Reglas generales
     
 * No incluir en la etiqueta los espacios ni signos de puntuación que aparezcan antes o después de cada mención.
 
