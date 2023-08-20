@@ -3,7 +3,9 @@ layout: entry
 title: Guía de Anotación de Información Personal en Textos Médicos.
 ---
 
-Luis Miranda, Jocelyn Dunstan.
+Luis Miranda (1),  Jocelyn Dunstan (1) 
+
+1. Departamento de Ciencia de la Computación de la Escuela de Ingeniería. Pontificia Universidad Católica de Chile.
 
 
 ## Introducción
