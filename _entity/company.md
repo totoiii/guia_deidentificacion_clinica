@@ -50,7 +50,7 @@ T2 Clinical_Finding 34 44
 
 ## Reglas negativas
 
-* NO etiquetar instituciones de salud, ya que tienen su propia etiqueta.
+* NO etiquetar instituciones de salud, ya que tienen su propia etiqueta [Health_Care_Unit](../entity/health_care_unit).
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
