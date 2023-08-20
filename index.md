@@ -1,15 +1,17 @@
 ---
 layout: entry
-title: Guía de Anotación de Información Sensible en Textos Médicos.
+title: Guía de Anotación de Información Personal en Textos Médicos.
 ---
 
 Luis Miranda, Jocelyn Dunstan.
 
 
 ## Introducción
-En un mundo cada vez más digitalizado, donde la información fluye constantemente a través de diversos canales y plataformas, la protección de la privacidad y la seguridad de los datos sensibles se ha vuelto una prioridad ineludible. La correcta anotación y etiquetado de información sensible es esencial para garantizar que se cumplan los más altos estándares de confidencialidad y se respeten las normativas legales establecidas para preservar la integridad de los datos personales y médicos. Esta guía tiene como objetivo proporcionar una instrucción sólida de las entidades clave relacionados con la anotación manual de información sensible y cómo llevar a cabo este proceso de manera eficiente y precisa.
+En un mundo cada vez más digitalizado, donde la información fluye constantemente a través de diversos canales y plataformas, la protección de la privacidad y la seguridad de los datos sensibles se ha vuelto una prioridad ineludible. La correcta anotación y etiquetado de información sensible es esencial para garantizar que se cumplan los más altos estándares de confidencialidad y se respeten las normativas legales establecidas para preservar la integridad de los datos personales y médicos. Esta guía tiene como objetivo proporcionar una instrucción sólida de la anotación manual de las entidades clave relacionadas con información personal clínica y cómo llevar a cabo este proceso de manera eficiente y precisa.
 
-En el contexto de esta guía, la información sensible se refiere a datos que, si se divulgaran de manera inapropiada, podrían comprometer la privacidad y seguridad de una persona. Esto abarca información personal, que incluye detalles como nombres, direcciones, números de teléfono, números de identificación y cualquier otra información que pueda ser utilizada para identificar a una persona en particular.
+Este proyecto busca crear un cuerpo de texto (corpus) etiquetado con información persona clínica. Esta guía de etiquetado busca apoyar la labor de los(as) etiquetadores(as) y se utilizará el software INCEpTION.
+
+### Ley N° 19.628 sobre Protección de la Vida Privada
 
 La privacidad de los datos de pacientes es una preocupación central en el ámbito de la salud en Chile. La ley chilena establece normativas específicas para proteger la confidencialidad de la información médica y personal de los pacientes. La Ley N° 19.628 sobre Protección de la Vida Privada regula la recopilación, en donde se definen los conceptos de :
 
@@ -20,6 +22,8 @@ La privacidad de los datos de pacientes es una preocupación central en el ámbi
 * Información sensible:
   
 La información sensible es un subconjunto de información personal que abarca datos particularmente delicados o que pueden tener un impacto más significativo en la privacidad de una persona. Esta categoría puede incluir información relacionada con la salud, la orientación sexual, las creencias religiosas o filosóficas, antecedentes penales, afiliaciones sindicales y otros datos que, si se divulgaran o utilizaran incorrectamente, podrían causar perjuicio, discriminación o afectar negativamente la vida de una persona.
+
+### Ley N° 20.584 sobre Derechos y Deberes de los Pacientes
 
 En el ámbito médico, la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes, junto con su Reglamento, establece directrices claras para el manejo de información sensible de pacientes, asegurando que se respeten sus derechos y su privacidad:
 
@@ -32,7 +36,7 @@ La ley enfatiza la importancia del consentimiento informado. Los pacientes tiene
 * Privacidad y Confidencialidad:
 Se establecen normas estrictas para la confidencialidad de los datos clínicos de los pacientes. Los profesionales de la salud y las instituciones médicas deben garantizar que la información médica sea manejada de manera segura y solo sea compartida con aquellos que tengan la autorización correspondiente. Citando al artículo 3:
 
-"Para los efectos del tratamiento de datos personales,
+  ** "Para los efectos del tratamiento de datos personales,
 se entenderá que el prestador es el responsable de llevar
 los registros o bases de datos de los pacientes que se
 generen con ocasión de la gestión de los sistemas de apoyo
