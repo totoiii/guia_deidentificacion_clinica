@@ -20,7 +20,7 @@ T1 First_Name 17 24
 Correcto: cada nombre corresponde a una etiqueta
 ~~~ ann
 ... Fué acogido por compañero de trabajo Felipe Eduardo Saez ...
-T1 Date_Part 41 47 
+T1 First_Name 41 47 
 T2 First_Name 48 55 
 ~~~
 </div>
@@ -29,7 +29,7 @@ T2 First_Name 48 55
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-... Pcte fue insultado por Don Manuel jefe de área...
-T1 First_Name 27 37 
+... Pcte fue insultado por Pepito jefe de área...
+T1 First_Name 27 33 
 ~~~
 </div>
