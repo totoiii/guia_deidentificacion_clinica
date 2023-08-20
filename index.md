@@ -13,7 +13,8 @@ En un mundo cada vez más digitalizado, donde la información fluye constantemen
 
 Este proyecto busca crear un cuerpo de texto (corpus) etiquetado con información persona clínica. Esta guía de etiquetado busca apoyar la labor de los(as) etiquetadores(as) y se utilizará el software [INCEpTION](https://inception-project.github.io/), en donde la interfaz es de la siguiente forma:
 
-<img src="https://github.com/totoiii/clinical_deidentification_guideline/blob/gh-pages/css/images/image.png" width="100%"/>
+<img src="https://github.com/totoiii/clinical_deidentification_guideline/raw/master/static/img/image.png" width="100%"/>
+
 
 ### Ley N° [19.628](https://www.bcn.cl/leychile/navegar?idNorma=141599) sobre Protección de la Vida Privada
 
