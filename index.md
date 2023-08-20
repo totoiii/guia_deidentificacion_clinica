@@ -104,7 +104,7 @@ Las reglas de anotación se pueden clasificar en 4 tipos:
     
 * No incluir en la etiqueta los espacios ni signos de puntuación que aparezcan antes o después de cada mención.
 
-  * Correcto:
+    * Correcto:
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -113,7 +113,7 @@ T1 Time 76 84
 ~~~
 </div>
 
-  * Incorrecto:
+    * Incorrecto:
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
