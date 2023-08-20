@@ -8,7 +8,7 @@ Una fecha se comprende como cualquier expresión que tenga un día, mes y año e
 
 ## Reglas positivas
 
-* Etiquetar todas las combinaciones de día, mes y/o año, excepto cuando se encuentren las 3.
+* Etiquetar todas las combinaciones de día, mes y/o año, excepto cuando se encuentren las 3, ya que dicha mención corresponde a la entidad [Full_Date](../_entity/full_date)
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
