@@ -9,7 +9,7 @@ Luis Miranda, Jocelyn Dunstan.
 ## Introducción
 En un mundo cada vez más digitalizado, donde la información fluye constantemente a través de diversos canales y plataformas, la protección de la privacidad y la seguridad de los datos sensibles se ha vuelto una prioridad ineludible. La correcta anotación y etiquetado de información sensible es esencial para garantizar que se cumplan los más altos estándares de confidencialidad y se respeten las normativas legales establecidas para preservar la integridad de los datos personales y médicos. Esta guía tiene como objetivo proporcionar una instrucción sólida de la anotación manual de las entidades clave relacionadas con información personal clínica y cómo llevar a cabo este proceso de manera eficiente y precisa.
 
-Este proyecto busca crear un cuerpo de texto (corpus) etiquetado con información persona clínica. Esta guía de etiquetado busca apoyar la labor de los(as) etiquetadores(as) y se utilizará el software INCEpTION.
+Este proyecto busca crear un cuerpo de texto (corpus) etiquetado con información persona clínica. Esta guía de etiquetado busca apoyar la labor de los(as) etiquetadores(as) y se utilizará el software [INCEpTION](https://inception-project.github.io/).
 
 ### Ley N° 19.628 sobre Protección de la Vida Privada
 
