@@ -45,7 +45,7 @@ propias de un mandatario, en los términos previstos en la
 ley N° 19.628 sobre protección de la vida privada."*
 
 
-### Ley de Portabilidad y Responsabilidad de Seguros de Salud  HIPAA:
+### Ley de Portabilidad y Responsabilidad de Seguros de Salud  HIPAA en USA:
 Dentro del ámbito médico, la Protected Health Information (PHI), o Información de Salud Protegida, se refiere a la información médica, de salud mental o historias clínicas que está protegida por la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA) en los Estados Unidos. Esta ley establece normas rigurosas para la protección de la privacidad y la seguridad de los datos médicos y personales de los pacientes.
 La HIPAA identifica un conjunto específico de 18 categorías de datos, conocidas como los "18 PHI Identifiers," que son considerados especialmente sensibles y deben recibir una protección adicional. Estos identificadores abarcan información que podría utilizarse para identificar a un individuo en particular. Algunos de los identificadores incluyen:
 
@@ -73,13 +73,16 @@ La HIPAA establece rigurosas pautas para la protección de estos identificadores
 En un contexto chileno, estos 18 identificadores PHI se han intentado adaptar para su aplicabilidad en la realidad nacional, especialmente en el ámbito de los textos médicos asociados a la Asociación Chilena de Seguridad (ACHS), que incluyen relatos de admisión y anamnesis de accidentes de trabajo o trayecto. Estos textos, que son vitales para la evaluación y el seguimiento de casos médicos, deben ser tratados con la misma rigurosidad en cuanto a la protección de datos personales/sensibles. La adopción de medidas de seguridad adecuadas, tanto físicas como tecnológicas, es fundamental para preservar la privacidad y la confidencialidad de los pacientes, garantizando que su información médica esté protegida en línea con los más altos estándares de seguridad y privacidad.
 
 ### Textos Médicos, Anamnesis y Relato de Admisión:
-En la Asociación Chilena de Seguridad (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes. Por otro lado, el relato de admisión en la ACHS se centra en el registro detallado de los eventos que llevaron al accidente, proporcionando un contexto claro para el análisis y seguimiento.
+En la Asociación Chilena de Seguridad (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes, en donde un ejemplo típico es:
 
-5. Deidentificación y Anonimización:
-Deidentificar implica eliminar o modificar elementos específicos en los datos que podrían identificar a una persona, mientras que anonimizar va un paso más allá al eliminar cualquier posibilidad de asociación con un individuo en particular. Ambos procesos son cruciales para garantizar que los datos compartidos para análisis o investigación mantengan el anonimato y la privacidad de las personas involucradas.
+* AM:- RAM:- HOY APROX 9:30 PISA SUELO RESBALADIZO RESBALANDO HACIA ADELANTE, DESPLAZANDOSE UN PAR DE METROS PERO RECUPERANDO EL EQUILIBRIO SIN CAER A SUELO, INICIANDO DOLOR SUBITO CARATER PROGRESIVO EN ASPECTO POSTERIOR DE MUSLO DERECHO.
+PLAN: POR CLINICA Y DOLOR REFRACTARIO SOLICITO ECO DOPPLER URGENTE. TVP VS DESGARRO SEMIMEMBRANOSO REEV AP -ECODOPPLER (-) PARA TVP. (+) PARA DESGARRO CON COLECCION HEMATICA
+-PERSISTE CON DOLOR E IMPOTENCIA FUNCIONAL. PLAN 2: -DERIVACION PARCIAL. MECANISMO INSUFICIENTE-CONTROL POR SUS SISTEMA DE PREVISION. REEV AP 15:43 DR JARA.
 
-6. Interfaz de Etiquetado y Procedimiento:
-Para llevar a cabo la anotación manual de información sensible, se puede utilizar software como INCEpTION, que proporciona una interfaz intuitiva para identificar y etiquetar datos relevantes en los textos médicos. El procedimiento implica resaltar y marcar los elementos específicos que requieren atención, como nombres, fechas de nacimiento, diagnósticos y otros detalles sensibles. Es fundamental seguir pautas claras y uniformes para asegurar una anotación precisa y coherente.
+Por otro lado, el relato de admisión en la ACHS se centra en el registro detallado de los eventos que llevaron al accidente, proporcionando un contexto claro para el análisis y seguimiento. Un ejemplo típico corresponde a:
+
+* AL MOMENTO DEL ACCIDENTE ESTABA CAMINO A SU TRABAJO . LO QUE OCURRIO FUE QUE BAJANDO ESCALERAS DE ESTACION DE METRO SE RESBALA CAYENDO AL PISO. EL ACCIDENTE OCURRIO CON OTROS. NO TIENE TESTIGOS DE SU ACCIDENTE, AVISO A LA EMPRESA, EL NOMBRE Y CARGO  DE LA PERSONA ES ANDREA CARRASCO, SUPERVISORA , FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 02.10.2018 A LAS 09:40:00
+
 
 ## Reglas de anotación manual de entidades
 
