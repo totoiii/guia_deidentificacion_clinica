@@ -104,16 +104,16 @@ Las reglas de anotación se pueden clasificar en 4 tipos:
     
 * No incluir en la etiqueta los espacios ni signos de puntuación que aparezcan antes o después de cada mención.
 
-    * Correcto:
+  * Correcto:
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 09.03.2023 A LAS 08:30:00. ACCIDENTE OCURRIO EN...
 T1 Time 76 84 
 ~~~
-</div>
+</div>.
 
-    * Incorrecto:
+  * Incorrecto:
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
