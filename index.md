@@ -36,13 +36,13 @@ La ley enfatiza la importancia del consentimiento informado. Los pacientes tiene
 * Privacidad y Confidencialidad:
 Se establecen normas estrictas para la confidencialidad de los datos clínicos de los pacientes. Los profesionales de la salud y las instituciones médicas deben garantizar que la información médica sea manejada de manera segura y solo sea compartida con aquellos que tengan la autorización correspondiente. Citando al artículo 3:
 
-  ** "Para los efectos del tratamiento de datos personales,
+  *"Para los efectos del tratamiento de datos personales,
 se entenderá que el prestador es el responsable de llevar
 los registros o bases de datos de los pacientes que se
 generen con ocasión de la gestión de los sistemas de apoyo
 a la salud, y los proveedores tendrán las responsabilidades
 propias de un mandatario, en los términos previstos en la
-ley N° 19.628 sobre protección de la vida privada."
+ley N° 19.628 sobre protección de la vida privada."*
 
 
 ### Ley de Portabilidad y Responsabilidad de Seguros de Salud  HIPAA:
