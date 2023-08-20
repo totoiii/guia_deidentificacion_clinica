@@ -41,34 +41,34 @@ propias de un mandatario, en los términos previstos en la
 ley N° 19.628 sobre protección de la vida privada."
 
 
-* Protected Health Information (PHI) y HIPAA:
+### Ley de Portabilidad y Responsabilidad de Seguros de Salud  HIPAA:
 Dentro del ámbito médico, la Protected Health Information (PHI), o Información de Salud Protegida, se refiere a la información médica, de salud mental o historias clínicas que está protegida por la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA) en los Estados Unidos. Esta ley establece normas rigurosas para la protección de la privacidad y la seguridad de los datos médicos y personales de los pacientes.
 La HIPAA identifica un conjunto específico de 18 categorías de datos, conocidas como los "18 PHI Identifiers," que son considerados especialmente sensibles y deben recibir una protección adicional. Estos identificadores abarcan información que podría utilizarse para identificar a un individuo en particular. Algunos de los identificadores incluyen:
 
-1.-Nombre
-2.-Dirección (todas las subdivisiones geográficas más pequeñas que el estado, incluyendo dirección de calle, ciudad, condado y código postal)
-3.-Todos los elementos (excepto años) de fechas relacionadas con un individuo (incluyendo fecha de nacimiento, fecha de admisión, fecha de alta, fecha de fallecimiento y edad exacta si es mayor de 89 años)
-4.-Números de teléfono
-5.-Número de fax
-6.-Dirección de correo electrónico
-7.-Número de Seguro Social
-8.-Número de expediente médico
-9.-Número de beneficiario de plan de salud
-10.-Número de cuenta
-11.-Número de certificado o licencia
-12.-Identificadores y números de serie de vehículos, incluyendo números de matrícula
-13.-Identificadores y números de serie de dispositivos
-14.-URL web
-15.-Dirección de Protocolo de Internet (IP)
-16.-Impresión dactilar o de voz
-17.-Imagen fotográfica: Las imágenes fotográficas no se limitan a imágenes del rostro.
-18.-Cualquier otra característica que pueda identificar de manera única al individuo.
+ * 1.-Nombre
+ * 2.-Dirección (todas las subdivisiones geográficas más pequeñas que el estado, incluyendo dirección de calle, ciudad, condado y código postal)
+ * 3.-Todos los elementos (excepto años) de fechas relacionadas con un individuo (incluyendo fecha de nacimiento, fecha de admisión, fecha de alta, fecha de fallecimiento y edad exacta si es mayor de 89 años)
+ * 4.-Números de teléfono
+ * 5.-Número de fax
+ * 6.-Dirección de correo electrónico
+ * 7.-Número de Seguro Social
+ * 8.-Número de expediente médico
+ * 9.-Número de beneficiario de plan de salud
+ * 10.-Número de cuenta
+ * 11.-Número de certificado o licencia
+ * 12.-Identificadores y números de serie de vehículos, incluyendo números de matrícula
+ * 13.-Identificadores y números de serie de dispositivos
+ * 14.-URL web
+ * 15.-Dirección de Protocolo de Internet (IP)
+ * 16.-Impresión dactilar o de voz
+ * 17.-Imagen fotográfica: Las imágenes fotográficas no se limitan a imágenes del rostro.
+ * 18.-Cualquier otra característica que pueda identificar de manera única al individuo.
 
 La HIPAA establece rigurosas pautas para la protección de estos identificadores y la información de salud protegida en general. Esto incluye medidas de seguridad física, administrativa y técnica para prevenir el acceso no autorizado, el uso indebido y la divulgación de datos médicos y personales. El cumplimiento de estas regulaciones es esencial para salvaguardar la privacidad y la confidencialidad de los pacientes y su información médica en los Estados Unidos.
 
 En un contexto chileno, estos 18 identificadores PHI se han intentado adaptar para su aplicabilidad en la realidad nacional, especialmente en el ámbito de los textos médicos asociados a la Asociación Chilena de Seguridad (ACHS), que incluyen relatos de admisión y anamnesis de accidentes de trabajo o trayecto. Estos textos, que son vitales para la evaluación y el seguimiento de casos médicos, deben ser tratados con la misma rigurosidad en cuanto a la protección de datos personales/sensibles. La adopción de medidas de seguridad adecuadas, tanto físicas como tecnológicas, es fundamental para preservar la privacidad y la confidencialidad de los pacientes, garantizando que su información médica esté protegida en línea con los más altos estándares de seguridad y privacidad.
 
-4. Textos Médicos, Anamnesis y Relato de Admisión:
+### Textos Médicos, Anamnesis y Relato de Admisión:
 En la Asociación Chilena de Seguridad (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes. Por otro lado, el relato de admisión en la ACHS se centra en el registro detallado de los eventos que llevaron al accidente, proporcionando un contexto claro para el análisis y seguimiento.
 
 5. Deidentificación y Anonimización:
@@ -77,4 +77,51 @@ Deidentificar implica eliminar o modificar elementos específicos en los datos q
 6. Interfaz de Etiquetado y Procedimiento:
 Para llevar a cabo la anotación manual de información sensible, se puede utilizar software como INCEpTION, que proporciona una interfaz intuitiva para identificar y etiquetar datos relevantes en los textos médicos. El procedimiento implica resaltar y marcar los elementos específicos que requieren atención, como nombres, fechas de nacimiento, diagnósticos y otros detalles sensibles. Es fundamental seguir pautas claras y uniformes para asegurar una anotación precisa y coherente.
 
+## Reglas de anotación manual de entidades
+
+Las premisas fundamentales que rigen todas las reglas de anotación en este protocolo son:
+
+  *  **Anotar la expresión más corta y general posible**, considerando que aún así se debe describir completamente la entidad. En este sentido, las palabras modificadoras deben ser excluidas. Esto ayuda a preservar la coherencia y la fluidez del texto después de la anonimización.
+
+  *  **Mantener el contexto clínico**.  Asegurarse de que las anotaciones de entidades nombradas en los textos clínicos conserven la información médica y contextual que rodea a esas entidades, ya que estos textos a menudo contienen información médica detallada que puede ser crucial para la comprensión y el tratamiento adecuado de los pacientes. 
+
+  *  **Consultas para Casos Dudosos**. En caso de encontrarse en casos ambiguos, se invita a consultar en internet el nombre de empresas, apellidos, nombres, etc. En caso de que la duda persista o tenga que ver con la regla de anotación, escribir a [Luis Miranda](mailto:lmirandn@uc.cl).
+
+Las reglas de anotación se pueden clasificar en 4 tipos:
+* Reglas generales (Reglas-G): reglas positivas y negativas que se aplican a todas las etiquetas de menciones, incluyen reglas ortográficas generales.
+* Reglas positivas (Reglas-P): reglas que especifican las entidades que se deben anotar.
+* Reglas negativas (Reglas-N): reglas que especifican las entidades que NO hay que anotar.
+* Reglas multipalabra (Regla-M): reglas que especifican si un grupo de palabras debe anotarse bajo una única etiqueta o no.
+
+### Reglas generales
+    
+* No incluir en la etiqueta los espacios ni signos de puntuación que aparezcan antes o después de cada mención.
+
+  * Correcto:
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 09.03.2023 A LAS 08:30:00. ACCIDENTE OCURRIO EN...
+T1 Time 76 84 
+~~~
+</div>
+
+  * Incorrecto:
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 09.03.2023 A LAS 08:30:00. ACCIDENTE OCURRIO EN...
+T1 Time 75 85 
+~~~
+</div>
+
   
+## Reglas específicas
+
+Las reglas asociadas a cada una de las entidades a anotar se encuentran definidas y explicadas en:
+
+* **Entidades**
+  {% for e in site.entity %}
+  * [{{ e.title }}]({{ e.url | remove_first:'/' }}): {{ e.shortdef }}
+  {% endfor %}
+
