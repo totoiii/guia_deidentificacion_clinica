@@ -4,18 +4,25 @@ title: "Company"
 shortdef: "Nombre o mención de alguna institución específica o general."
 ---
 
-Una institución corresponde a una organización, estructura o entidad establecida dentro de una sociedad para cumplir con una función específica, mantener ciertos valores, normas o tradiciones, y satisfacer necesidades colectivas. Estas entidades pueden ser de naturaleza pública o privada y abarcan una amplia gama de campos, como la educación, la religión, la política, la economía y la cultura, entre otras.
+Una institución corresponde a una organización, estructura o entidad establecida dentro de una sociedad para cumplir con una función específica. Estas entidades pueden ser de naturaleza pública o privada y abarcan una amplia gama de campos, como la educación, la religión, la política, la economía y la cultura, entre otras. Exceptuando las instituciones de salud (ver Reglas negativas)
 
 A continuación se encuentran las reglas de anotación de Company.
 
 ## Reglas positivas
 
-* Etiquetar todos nombres de instituciones.
+* Etiquetar todos nombres de instituciones, empresas, etc.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE trabaja en Scotiabank. se dirigía a su trabajo cuando ...
 T1 Company 20 30 
+~~~
+</div>
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... FA: 19.03.2018 W: Registro Civil Se dirigía en micro a su casa y  ...
+T1 Company 22 36 
 ~~~
 </div>
 
