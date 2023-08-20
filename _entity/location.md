@@ -9,7 +9,7 @@ Esta entidad corresponde a expresión que represente lugares físicos o geográf
 
 ## Reglas positivas
 
-* Anotar cualquier ubicación exacta o general de algún .
+* Anotar cualquier subdivision geográfica más pequeña que un país, incluida la dirección, la ciudad, población, comuna, región y el código postal .
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -37,14 +37,14 @@ T1 Location 25 37
 
 * No anotar lugares físicos o geográficos generales
 
-<div class="annotation-correct" markdown="1">
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... Estaba trabajando en obras bajando por el cerro y sufre contusion facial...
 T1 Location 46 51 
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... tras bajarse de la micro en la esquina sufre torsion de tobillo izquierdo...
 T1 Location 35 42 
