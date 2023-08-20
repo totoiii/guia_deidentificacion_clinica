@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Occupation Info"
-shortdef: "Etiqueta que haga referencia información asociada a la ocupación de la persona"
+shortdef: "Etiqueta que menciones que hagan referencia a la ocupación de la persona"
 ---
 
 Corresponde a cualquier acción, objeto, espacio, persona o cualquier otra información con la que se logre concluir a lo que se dedica una persona.
@@ -70,7 +70,7 @@ T1 Occupation_info 14 33
 ~~~
 </div>
 
-* NO etiquetar objetos típicas en un trabajo o generales:
+* NO etiquetar objetos comunes o generales en el trabajo o vida cotidiana:
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
