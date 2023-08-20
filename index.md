@@ -13,7 +13,7 @@ En un mundo cada vez más digitalizado, donde la información fluye constantemen
 
 Este proyecto busca crear un cuerpo de texto (corpus) etiquetado con información persona clínica. Esta guía de etiquetado busca apoyar la labor de los(as) etiquetadores(as) y se utilizará el software [INCEpTION](https://inception-project.github.io/).
 
-### Ley N° 19.628 sobre Protección de la Vida Privada
+### Ley N° [19.628](https://www.bcn.cl/leychile/navegar?idNorma=141599) sobre Protección de la Vida Privada
 
 La privacidad de los datos de pacientes es una preocupación central en el ámbito de la salud en Chile. La ley chilena establece normativas específicas para proteger la confidencialidad de la información médica y personal de los pacientes. La Ley N° 19.628 sobre Protección de la Vida Privada regula la recopilación, en donde se definen los conceptos de :
 
@@ -25,7 +25,7 @@ La privacidad de los datos de pacientes es una preocupación central en el ámbi
   
 La información sensible es un subconjunto de información personal que abarca datos particularmente delicados o que pueden tener un impacto más significativo en la privacidad de una persona. Esta categoría puede incluir información relacionada con la salud, la orientación sexual, las creencias religiosas o filosóficas, antecedentes penales, afiliaciones sindicales y otros datos que, si se divulgaran o utilizaran incorrectamente, podrían causar perjuicio, discriminación o afectar negativamente la vida de una persona.
 
-### Ley N° 20.584 sobre Derechos y Deberes de los Pacientes
+### Ley N° [20.584](https://www.bcn.cl/leychile/navegar?idNorma=1039348) sobre Derechos y Deberes de los Pacientes
 
 En el ámbito médico, la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes, junto con su Reglamento, establece directrices claras para el manejo de información sensible de pacientes, asegurando que se respeten sus derechos y su privacidad:
 
@@ -47,7 +47,7 @@ propias de un mandatario, en los términos previstos en la
 ley N° 19.628 sobre protección de la vida privada."*
 
 
-### Ley de Portabilidad y Responsabilidad de Seguros de Salud  HIPAA en USA:
+### Ley de Portabilidad y Responsabilidad de Seguros de Salud  [HIPAA](https://www.hhs.gov/hipaa/index.html) en USA:
 Dentro del ámbito médico, la Protected Health Information (PHI), o Información de Salud Protegida, se refiere a la información médica, de salud mental o historias clínicas que está protegida por la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA) en los Estados Unidos. Esta ley establece normas rigurosas para la protección de la privacidad y la seguridad de los datos médicos y personales de los pacientes.
 La HIPAA identifica un conjunto específico de 18 categorías de datos, conocidas como los "18 PHI Identifiers," que son considerados especialmente sensibles y deben recibir una protección adicional. Estos identificadores abarcan información que podría utilizarse para identificar a un individuo en particular. Algunos de los identificadores incluyen:
 
@@ -75,7 +75,7 @@ La HIPAA establece rigurosas pautas para la protección de estos identificadores
 En un contexto chileno, estos 18 identificadores PHI se han intentado adaptar para su aplicabilidad en la realidad nacional, especialmente en el ámbito de los textos médicos asociados a la Asociación Chilena de Seguridad (ACHS), que incluyen relatos de admisión y anamnesis de accidentes de trabajo o trayecto. Estos textos, que son vitales para la evaluación y el seguimiento de casos médicos, deben ser tratados con la misma rigurosidad en cuanto a la protección de datos personales/sensibles. La adopción de medidas de seguridad adecuadas, tanto físicas como tecnológicas, es fundamental para preservar la privacidad y la confidencialidad de los pacientes, garantizando que su información médica esté protegida en línea con los más altos estándares de seguridad y privacidad.
 
 ### Textos Médicos, Anamnesis y Relato de Admisión:
-En la Asociación Chilena de Seguridad (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes, en donde un ejemplo típico es:
+En la [Asociación Chilena de Seguridad](https://www.achs.cl/) (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes, en donde un ejemplo típico es:
 
 * AM:- RAM:- HOY APROX 9:30 PISA SUELO RESBALADIZO RESBALANDO HACIA ADELANTE, DESPLAZANDOSE UN PAR DE METROS PERO RECUPERANDO EL EQUILIBRIO SIN CAER A SUELO, INICIANDO DOLOR SUBITO CARATER PROGRESIVO EN ASPECTO POSTERIOR DE MUSLO DERECHO.
 PLAN: POR CLINICA Y DOLOR REFRACTARIO SOLICITO ECO DOPPLER URGENTE. TVP VS DESGARRO SEMIMEMBRANOSO REEV AP -ECODOPPLER (-) PARA TVP. (+) PARA DESGARRO CON COLECCION HEMATICA
