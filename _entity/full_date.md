@@ -29,8 +29,8 @@ T1 Full_Date 33 43
 Caso típico: dividir en dos etiquetas (revisar [Date_Part](../_entity/Date_part))
 ~~~ ann
 ...Fecha Accidente: martes 20/05/2021...
-T1 Date_Part 27 37  
-T2 Full_Date 20 26 
+T1 Full_Date 27 37  
+T2 Date_Part 20 26 
 ~~~
 </div>
 
