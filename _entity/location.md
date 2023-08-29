@@ -32,6 +32,29 @@ T1 Location 25 37
 ~~~
 </div>
 
+* Anotar menciones lugares identificables con una subdivisión geográfica.
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... PCTE relata que se encontraba en parque los reyes cuando empieza a sentir picazón...
+T1 Location 25 37 
+~~~
+</div>
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Al momento de entrar a costanera center pcte comienza a presentar mareo intenso...
+T1 Location 25 37 
+~~~
+</div>
+
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... ME ENCONTRABA VIAJANDO EN MICRO 201 YENDO A MI HOGAR CUANDO...
+T1 Location 25 37 
+~~~
+</div>
 
 ## Reglas negativas
 
@@ -47,6 +70,20 @@ T1 Location 46 51
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... tras bajarse de la micro en la esquina sufre torsion de tobillo izquierdo...
+T1 Location 35 42 
+~~~
+</div>
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+... tras salir de la sala de clase siente dolor intenso en brazo izquierdo...
+T1 Location 35 42 
+~~~
+</div>
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+... LLevaba mas de 5 horas sentado en oficina cuando presencia hormigueos en la pierna...
 T1 Location 35 42 
 ~~~
 </div>
