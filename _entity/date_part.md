@@ -42,25 +42,9 @@ T2 Date_Part 24 33
 ~~~
 </div>
 
-* Etiquetar referencias a fechas con respecto a otra
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-... El día de ayer se accidentó levantando cemento...
-T1 Date_Part 14 18 
-~~~
-</div>
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-... Desde hace 6 meses inicia con dolor...
-T1 Date_Part 15 22 
-~~~
-</div>
-
 ## Reglas negativas
 
-* NO etiquetar duraciones o repeticiones de intervalos de tiempo en donde no se pueda llegar a obtener una fecha a partir de otra.
+* NO etiquetar duraciones o repeticiones de intervalos de tiempo.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
@@ -76,3 +60,18 @@ T1 Date_Part 44 61
 ~~~
 </div>
 
+* NO Etiquetar referencias a fechas con respecto a otra
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+... El día de ayer se accidentó levantando cemento...
+T1 Date_Part 14 18 
+~~~
+</div>
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+... Desde hace 6 meses inicia con dolor...
+T1 Date_Part 15 22 
+~~~
+</div>
