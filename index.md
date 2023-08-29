@@ -78,13 +78,13 @@ La HIPAA establece rigurosas pautas para la protección de estos identificadores
 En un contexto chileno, estos 18 identificadores PHI se han intentado adaptar para su aplicabilidad en la realidad nacional, especialmente en el ámbito de los textos médicos asociados a la Asociación Chilena de Seguridad (ACHS), que incluyen relatos de admisión y anamnesis de accidentes de trabajo o trayecto. Estos textos, que son vitales para la evaluación y el seguimiento de casos médicos, deben ser tratados con la misma rigurosidad en cuanto a la protección de datos personales/sensibles. La adopción de medidas de seguridad adecuadas, tanto físicas como tecnológicas, es fundamental para preservar la privacidad y la confidencialidad de los pacientes, garantizando que su información médica esté protegida en línea con los más altos estándares de seguridad y privacidad.
 
 ### Textos Médicos, Anamnesis y Relato de Admisión:
-En la [Asociación Chilena de Seguridad](https://www.achs.cl/) (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes, en donde un ejemplo típico es:
+En la [Asociación Chilena de Seguridad](https://www.achs.cl/) (ACHS), los textos médicos adquieren un significado vital en situaciones de accidentes de trabajo y trayecto. La anamnesis se refiere al conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes, en donde un ejemplo puede ser:
 
 * AM:- RAM:- HOY APROX 9:30 PISA SUELO RESBALADIZO RESBALANDO HACIA ADELANTE, DESPLAZANDOSE UN PAR DE METROS PERO RECUPERANDO EL EQUILIBRIO SIN CAER A SUELO, INICIANDO DOLOR SUBITO CARATER PROGRESIVO EN ASPECTO POSTERIOR DE MUSLO DERECHO.
 PLAN: POR CLINICA Y DOLOR REFRACTARIO SOLICITO ECO DOPPLER URGENTE. TVP VS DESGARRO SEMIMEMBRANOSO REEV AP -ECODOPPLER (-) PARA TVP. (+) PARA DESGARRO CON COLECCION HEMATICA
 -PERSISTE CON DOLOR E IMPOTENCIA FUNCIONAL. PLAN 2: -DERIVACION PARCIAL. MECANISMO INSUFICIENTE-CONTROL POR SUS SISTEMA DE PREVISION. REEV AP 15:43 DR JARA.
 
-Por otro lado, el relato de admisión en la ACHS se centra en el registro detallado de los eventos que llevaron al accidente, proporcionando un contexto claro para el análisis y seguimiento. Un ejemplo típico corresponde a:
+Por otro lado, el relato de admisión en la ACHS se centra en el registro detallado de los eventos que llevaron al accidente, proporcionando un contexto claro para el análisis y seguimiento. Un texto de ejemplo sería:
 
 * AL MOMENTO DEL ACCIDENTE ESTABA CAMINO A SU TRABAJO . LO QUE OCURRIO FUE QUE BAJANDO ESCALERAS DE ESTACION DE METRO SE RESBALA CAYENDO AL PISO. EL ACCIDENTE OCURRIO CON OTROS. NO TIENE TESTIGOS DE SU ACCIDENTE, AVISO A LA EMPRESA, EL NOMBRE Y CARGO  DE LA PERSONA ES ANDREA CARRASCO, SUPERVISORA , FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 02.10.2018 A LAS 09:40:00
 
@@ -120,7 +120,7 @@ T1 Time 76 84
 
   * Incorrecto:
 
-<div class="annotation-correct" markdown="1">
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
 FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 09.03.2023 A LAS 08:30:00. ACCIDENTE OCURRIO EN...
 T1 Time 75 85 
