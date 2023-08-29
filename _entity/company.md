@@ -26,29 +26,44 @@ T1 Company 22 36
 ~~~
 </div>
 
-* Etiquetar todas las menciones de instituciones generales.
+<div class="annotation-correct" markdown="1">
+~~~ ann
+...TRAS ROBO DE CAMIONETA MIENTRAS SE TRASLADABA LLAMO A CARABINEROS ...
+T1 Company 22 36 
+~~~
+</div>
 
 <div class="annotation-correct" markdown="1">
+~~~ ann
+... Se accidentó a las afueras del Colegio Público b-72 en su jornada laboral...
+T1 Company 35 56 
+~~~
+</div>
+
+## Reglas negativas
+
+* NO etiquetar todas las menciones de instituciones generales.
+
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... Operario en constructora se accidenta mientras se dirigía a su hogar ...
 T1 Company 16 28 
 ~~~
 </div>
 
-<!---
-Esto debería ir en otra categoría dentro de finding llamada Factores de riesgo
-* Etiquetar dentro de esta categoría las frases que describen hábitos de consumo.
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+...MIENTRAS TRABAJABA EN COLEGIO SIENTE MAREOS REPENTINOS ...
+T1 Company 16 28 
+~~~
+</div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-Consumo de alcohol: +, conusmo de cigarro: - ....
-T1 Clinical_Finding 11 21 
-T2 Clinical_Finding 34 44 
+... W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo...
+T1 Company 7 27 
 ~~~
 </div>
--->
-
-## Reglas negativas
 
 * NO etiquetar instituciones de salud, ya que tienen su propia etiqueta [Health_Care_Unit](../entity/health_care_unit).
 
@@ -59,22 +74,13 @@ T1 Company 24 45
 ~~~
 </div>
 
-## Reglas multipalabra
-
-* Etiquetar como una sola entidad las menciones a una institución específica .
-
-<div class="annotation-correct" markdown="1">
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
-... Se accidentó a las afueras del Colegio Público b-72 en su jornada laboral...
-T1 Company 35 56 
+... A LAS 17:45 ES LLEVADO A LA ACHS ...
+T1 Company 24 45 
 ~~~
 </div>
 
-* Etiquetar como una sola entidad las menciones a una institución general .
 
-<div class="annotation-correct" markdown="1">
-~~~ ann
-... W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo...
-T1 Company 7 27 
-~~~
-</div>
+
+
