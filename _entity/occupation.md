@@ -1,10 +1,10 @@
 ---
 layout: entry
 title: "Occupation"
-shortdef: "Oficio o profesión de una persona"
+shortdef: "Etiqueta para el oficio, profesión u ocupación de una persona"
 ---
 
-La ocupación de una persona se refiere al trabajo, empleo, profesión o actividad que dicha persona realiza como parte de su vida laboral. Es la tarea o conjunto de tareas que una persona lleva a cabo de manera regular y por la cual puede recibir compensación económica o beneficios laborales. 
+La ocupación de una persona se refiere al trabajo, empleo, profesión o actividad que dicha persona realiza como parte de su vida laboral.
 
 ## Reglas positivas
 
@@ -17,7 +17,13 @@ T1 Occupation 41 50
 ~~~
 </div>
 
-* Etiqueta términos que describen roles laborales de manera general.
+<div class="annotation-correct" markdown="1">
+~~~ ann
+...Edad: 43. W: operario en bodega. FA: 19/03/2019 se encontraba...
+T1 Occupation 41 50 
+~~~
+</div>
+
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
