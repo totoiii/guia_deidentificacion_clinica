@@ -18,7 +18,7 @@ T1 Age 12 19
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 … PCTE EDAD: 32. SE ENCONTRABA EN OFICINA CUANDO SE ACCIDENTA … 
-T1 Age 12 19 
+T1 Age 13 15 
 ~~~
 </div>
 
@@ -47,8 +47,7 @@ T2 Age 22 24
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... Adminisrativo en empresa financiera con 25 años de antiguedad...
-T1 Age 13 18 
-T2 Age 22 24 
+T1 Age 44 51 
 ~~~
 </div>
 
