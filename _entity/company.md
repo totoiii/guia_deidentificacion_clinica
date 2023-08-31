@@ -29,7 +29,7 @@ T1 Company 22 36
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ...TRAS ROBO DE CAMIONETA MIENTRAS SE TRASLADABA LLAMO A CARABINEROS ...
-T1 Company 22 36 
+T1 Company 57 68 
 ~~~
 </div>
 
@@ -54,7 +54,7 @@ T1 Company 16 28
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ...MIENTRAS TRABAJABA EN COLEGIO SIENTE MAREOS REPENTINOS ...
-T1 Company 16 28 
+T1 Company 25 32 
 ~~~
 </div>
 
@@ -76,8 +76,8 @@ T1 Company 24 45
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-... A LAS 17:45 ES LLEVADO A LA ACHS ...
-T1 Company 24 45 
+.... A LAS 17:45 ES LLEVADO A LA ACHS ...
+T1 Company 33 37 
 ~~~
 </div>
 
