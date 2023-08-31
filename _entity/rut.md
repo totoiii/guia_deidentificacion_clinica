@@ -26,14 +26,4 @@ T1 RUT 19 23
 </div>
 
 
-## Reglas negativas
-
-* NO anotar numeros que no tengan sentido con un RUT.
-
-<div class="annotation-incorrect" markdown="1">
-~~~ ann
-... Se anoto 
-T1 Date_Part 31 37 
-~~~
-</div>
 
