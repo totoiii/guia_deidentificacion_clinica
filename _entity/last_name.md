@@ -30,15 +30,14 @@ T2 Last_Name 45 49
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... aviso a la empresa, el nombre y cargo es Roberto Ríos-Prado Rodríguez, jefe de prevencion de riesgos...
-T1 Occupation_info 53 63 
-T2 Occupation_info 64 73 
+T1 Last_Name 64 73 
+T2 Last_Name 53 63 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... aviso a la empresa, el nombre y cargo es Humberto Fernandez de León...
-T1 Occupation_info 53 63 
-T2 Occupation_info 64 73 
+T1 Last_Name 54 71 
 ~~~
 </div>
