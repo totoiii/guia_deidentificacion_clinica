@@ -13,14 +13,14 @@ En Chile, un número telefónico fijo tiene 8 dígitos, mientras que un número 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE tras recibir golpa llamo al doctor medina al 970042791...
-T1 RUT 19 23 
+T1 Phone_Number 54 63 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE tiene testigos,  +56993374194 colega de trabajo...
-T1 RUT 19 23 
+T1 Phone_Number 26 38 
 ~~~
 </div>
 
@@ -31,13 +31,13 @@ T1 RUT 19 23
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE tras recibir robo llamo inmediatamente a 133 ...
-T1 RUT 19 23 
+T1 Phone_Number 50 53 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... llama a 131 tras sentir dolor en brazo izquierdo y ...
-T1 RUT 19 23 
+T1 Phone_Number 12 15 
 ~~~
 </div>
