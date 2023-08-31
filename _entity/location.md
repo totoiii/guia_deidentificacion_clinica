@@ -37,14 +37,14 @@ T1 Location 25 37
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE relata que se encontraba en parque los reyes cuando empieza a sentir picazón...
-T1 Location 25 37 
+T1 Location 37 53 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... Al momento de entrar a costanera center pcte comienza a presentar mareo intenso...
-T1 Location 25 37 
+T1 Location 27 43 
 ~~~
 </div>
 
@@ -52,7 +52,7 @@ T1 Location 25 37
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... ME ENCONTRABA VIAJANDO EN MICRO 201 YENDO A MI HOGAR CUANDO...
-T1 Location 25 37 
+T1 Location 30 39 
 ~~~
 </div>
 
@@ -77,13 +77,13 @@ T1 Location 35 42
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... tras salir de la sala de clase siente dolor intenso en brazo izquierdo...
-T1 Location 35 42 
+T1 Location 21 34 
 ~~~
 </div>
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... LLevaba mas de 5 horas sentado en oficina cuando presencia hormigueos en la pierna...
-T1 Location 35 42 
+T1 Location 38 45 
 ~~~
 </div>
