@@ -32,21 +32,6 @@ T2 Time 51 55
 ~~~
 </div>
 
-* Etiquetar referencias a rangos de horarios del día.
-  
-<div class="annotation-correct" markdown="1">
-~~~ ann
-...Acude a la consulta debido a que en la mañana se accidentó caminando...
-T1 Time 42 48 
-~~~
-</div>  
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-...Paciente relata que en la noche no logra dormir...
-T1 Time 29 34 
-~~~
-</div>  
 
 ## Reglas negativas
 
@@ -59,17 +44,18 @@ T1 Time 35 41
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
+* NO Etiquetar referencias a rangos de horarios del día.
+  
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
-AL MOMENTO DEL ACCIDENTE ESTABA CAMINANDO A ALMORZAR. LO QUE OCURRIO FUE QUE ME TROPECE Y ME FUI DE PUNTA GOLPEE LA CABEZA QUEDANDO CON UNA HERIDA. EL ACCIDENTE OCURRIO CON LA HERIDA., TIENE TESTIGOS DE SU ACCIDENTE, AVISO A LA EMPRESA, FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 23.08.2022 A LAS 14:20:00
-T1 Date_Part 94 101 
-T2 Time 102 110 
-T3 Occupation_info 54 60 
-T4 Location 40 47 
-T5 First_Name 70 75 
-T6 Last_Name 76 82 
-T7 Occupation 28 37 
-T8 Full_Date 128 138 
+...Acude a la consulta debido a que en la mañana se accidentó caminando...
+T1 Time 42 48 
 ~~~
-</div>
+</div>  
 
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+...Paciente relata que en la noche no logra dormir...
+T1 Time 29 34 
+~~~
+</div>  
