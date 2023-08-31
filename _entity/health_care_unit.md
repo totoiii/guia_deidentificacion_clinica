@@ -21,13 +21,13 @@ Además, Chile cuenta con ISAPRES (Instituciones de Salud Previsional) que son e
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... PCTE trabaja en CESFAM La Cisterna...
-T1 Company 20 30 
+T1 Health_Care_Unit 20 38 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... Refiere no acudir a ACHS porque no tenia reemplazo en trabajo...
-T1 Company 20 30 
+T1 Health_Care_Unit 24 28 
 ~~~
 </div>
