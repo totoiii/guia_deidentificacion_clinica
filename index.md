@@ -88,6 +88,7 @@ Por otro lado, el relato de admisión en la ACHS se centra en el registro detall
 
 * AL MOMENTO DEL ACCIDENTE ESTABA CAMINO A SU TRABAJO . LO QUE OCURRIO FUE QUE BAJANDO ESCALERAS DE ESTACION DE METRO SE RESBALA CAYENDO AL PISO. EL ACCIDENTE OCURRIO CON OTROS. NO TIENE TESTIGOS DE SU ACCIDENTE, AVISO A LA EMPRESA, EL NOMBRE Y CARGO  DE LA PERSONA ES ANDREA CARRASCO, SUPERVISORA , FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 02.10.2018 A LAS 09:40:00
 
+Cada ejemplo que se utilizó en esta guía de anotación fue sacado o inspirado del corpus utilizado para crearla. Sin embargo, toda la información personal fué modificada.
 
 ## Reglas de anotación manual de entidades
 
