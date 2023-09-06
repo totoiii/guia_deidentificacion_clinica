@@ -128,7 +128,27 @@ T1 Time 75 85
 ~~~
 </div>
 
-  
+* Anotar como una sola entidad cada vez que se haga mención a una entidad nombrada (que se asocie con alguna de las entidades definidas en esta guía) de manera general asociada a a una especificación de esta misma.
+
+  * Correcto:
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+...Paciente estuvo en sucursal La Reina, en donde mientras trabajaba se accidentó...
+T1 Company 22 39 
+~~~
+</div>.
+
+  * Incorrecto:
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+...Paciente estuvo en sucursal La Reina, en donde mientras trabajaba se accidentó...
+T1 Company 22 30 
+T2 Location 31 39 
+~~~
+</div>.
+
 ## Reglas específicas
 
 Las reglas asociadas a cada una de las entidades a anotar se encuentran definidas y explicadas en:
