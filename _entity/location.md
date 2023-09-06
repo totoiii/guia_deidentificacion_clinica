@@ -13,8 +13,8 @@ Esta entidad corresponde a expresión que represente lugares físicos o geográf
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-... Paso a la Bodega en Sucursal La Reina, en donde chocó...
-T1 Location 33 41 
+... Paso por la comuna San Miguel, en donde chocó...
+T1 Location 16 33 
 ~~~
 </div>
 
