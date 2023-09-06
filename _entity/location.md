@@ -18,12 +18,6 @@ T1 Location 16 33
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
-~~~ ann
-... Se desmayó camino al trabajo en metro Los heroes en la mañana del martes...
-T1 Location 36 52 
-~~~
-</div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -55,6 +49,14 @@ T1 Location 27 43
 T1 Location 30 39 
 ~~~
 </div>
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Se desmayó camino al trabajo en metro Los heroes en la mañana del martes...
+T1 Location 36 52 
+~~~
+</div>
+
 
 ## Reglas negativas
 
