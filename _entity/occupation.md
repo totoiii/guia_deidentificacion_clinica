@@ -24,21 +24,20 @@ T1 Occupation 16 34
 ~~~
 </div>
 
-
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-... PCTE informa que es profesor de educación física en colegio público.
+... PCTE informa que es profesor de educación física. Sufre de hipertension.
 T1 Occupation 24 52 
 ~~~
 </div>
 
 ## Reglas negativas
 
-* No incluir la institución o empresa en la que trabaja.
+* No incluir el nombre de la institución o empresa en la que trabaja.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-... Ocupacion: auxiliar de colegio. Acude debido a que hoy siente malestar...
-T1 Occupation 15 34 
+... Ocupacion: auxiliar de colegio b-63. Acude debido a que hoy siente malestar...
+T1 Occupation 15 39 
 ~~~
 </div>
