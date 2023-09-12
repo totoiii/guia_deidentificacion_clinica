@@ -24,9 +24,6 @@ T1 Phone_Number 26 38
 ~~~
 </div>
 
-## Reglas Negativas
-
-* NO Etiquetar todas menciones a números telefónicos de emergencia
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -35,9 +32,4 @@ T1 Phone_Number 50 53
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
-~~~ ann
-... llama a 131 tras sentir dolor en brazo izquierdo y ...
-T1 Phone_Number 12 15 
-~~~
-</div>
+
