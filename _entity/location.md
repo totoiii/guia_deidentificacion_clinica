@@ -59,6 +59,14 @@ T1 Location 36 52
 ~~~
 </div>
 
+* Etiquetar menciones de instituciones cuando se estén refiriendo a estas como un lugar.
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Al iniciar el día laboral iba de camino al JUMBO en la mañana del martes...
+T1 Location 47 52 
+~~~
+</div>
 
 ## Reglas negativas
 
