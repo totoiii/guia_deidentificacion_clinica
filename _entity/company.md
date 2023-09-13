@@ -83,7 +83,7 @@ T1 Company 33 37
 
 * En general las instituciones vienen mencionadas junto al lugar en el que se encuentran. En este caso anotar sólo el nombre de la insitución:
 
-* Incorrecto:
+  * Incorrecto:
   
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
@@ -99,7 +99,7 @@ T1 Company 22 50
 ~~~
 </div>
 
-* Correcto:
+  * Correcto:
   
 <div class="annotation-correct" markdown="1">
 ~~~ ann
