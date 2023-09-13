@@ -31,3 +31,7 @@ T1 Health_Care_Unit 20 38
 T1 Health_Care_Unit 24 28 
 ~~~
 </div>
+
+* Etiquetar la descripción del lugar como parte de la institución de salud, en caso de que esté pospuesta.
+
+* Etiquetar el nombre de la institución de salud aunque se esté refiriendo a esta como lugar.
