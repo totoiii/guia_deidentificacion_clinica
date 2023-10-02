@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Email"
-shortdef: "Etiqueta para el correo electrónico"
+shortdef: "Etiqueta para el correo electrónico."
 ---
 
 El correo electrónico es único para cada usuario y suele tener el formato "nombredeusuario@dominio.com". El "nombredeusuario" es el nombre elegido por el usuario y el "dominio.com" es la dirección del servidor de correo.
