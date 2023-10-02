@@ -6,7 +6,7 @@ shortdef: "Etiqueta para la edad de una persona."
 
 ## Reglas positivas
 
-* Etiquetar edades específicas e incluir la palabra "años".
+* Etiquetar edades específicas e incluir la palabra "años", siempre pospuesta al número como en (1).
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -26,7 +26,7 @@ T1 Age 13 15
 
 ## Reglas negativas
 
-* NO etiquetar años que no tengan que ver con edad de personas.
+* NO etiquetar años que no refieran a la edad de personas. Por ejemplo, la antiguedad de una persona en una institución en (3); o la antiguedad del procedimiento realizado a una persona en (4).
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... Adminisrativo en empresa financiera con 25 años de antiguedad...
