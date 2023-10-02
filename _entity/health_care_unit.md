@@ -6,7 +6,7 @@ shortdef: "Etiqueta para nombres de instituciones de salud."
 
 ## Reglas positivas
 
-* Etiquetar todos nombres de instituciones de salud específicas.
+* Etiquetar todos los nombres específicos para instituciones de salud.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
