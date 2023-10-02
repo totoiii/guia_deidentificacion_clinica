@@ -1,11 +1,11 @@
 ---
 layout: entry
 title: "Full_Date"
-shortdef: "Etiqueta de una fecha exacta o referencia."
+shortdef: "Etiqueta para una fecha exacta."
 ---
 
 
-Una fecha se define como representación específica de un punto en el tiempo, compuesta por el día, mes y año. Se utiliza para identificar cuándo ocurrió o ocurrirá un evento particular.
+Una fecha se define como representación específica de un punto en el tiempo, compuesta por el día, mes y año.
 
 ## Reglas positivas
 
