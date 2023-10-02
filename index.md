@@ -21,11 +21,9 @@ La privacidad de los datos de pacientes es una preocupación central en el ámbi
 
 * Información personal: refiere a cualquier dato o conjunto de datos a partir del cual es posible identificar directa o indirectamente a una persona natural. Esto incluye datos como nombres, apellidos, números de identificación, direcciones, números de teléfono, direcciones de correo electrónico, fechas de nacimiento, entre otros. En definitiva, se trata de cualquier información que permita identificar o relacionar a una persona específica. el almacenamiento y el uso de datos personales en el país.
  
-* Información sensible:
-  
-La información sensible es un subconjunto de información personal que abarca datos particularmente delicados o que pueden tener un impacto más significativo en la privacidad de una persona. Esta categoría puede incluir información relacionada con la salud, la orientación sexual, las creencias religiosas o filosóficas, antecedentes penales, afiliaciones sindicales y otros datos que, si se divulgaran o utilizaran incorrectamente, podrían causar perjuicio, discriminación o afectar negativamente la vida de una persona.
+* Información sensible: refiere a un subconjunto de información personal que abarca datos particularmente delicados o que pueden tener un impacto más significativo en la privacidad de una persona. Esta categoría puede incluir información relacionada con el estado o condición de salud, la orientación sexual, las creencias religiosas o filosóficas, antecedentes penales, afiliaciones sindicales u otros datos que, de divulgarse o utilizarse incorrectamente, podrían causar perjuicio, discriminación o afectación negativa en la vida de una persona.
 
-### Ley N° [20.584](https://www.bcn.cl/leychile/navegar?idNorma=1039348) sobre Derechos y Deberes de los Pacientes
+### Ley N° [20.584](https://www.bcn.cl/leychile/navegar?idNorma=1039348) sobre derechos y deberes de los pacientes
 
 En el ámbito médico, la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes, junto con su Reglamento, establece directrices claras para el manejo de información sensible de pacientes, asegurando que se respeten sus derechos y su privacidad:
 
