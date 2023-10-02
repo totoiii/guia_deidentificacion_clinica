@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Location"
-shortdef: "Etiqueta para cualquier ubicación o referencia a alguno"
+shortdef: "Etiqueta para cualquier ubicación o referencia a alguna."
 ---
 
 Esta entidad corresponde a expresión que represente lugares físicos o geográficos especificos. Estas entidades pueden ser nombres de ciudades, países, estados, regiones, puntos de referencia, direcciones, coordenadas geográficas y cualquier otro tipo de ubicación física identificable en un texto.
