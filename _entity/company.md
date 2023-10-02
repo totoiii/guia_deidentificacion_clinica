@@ -10,7 +10,7 @@ A continuación se encuentran las reglas de anotación de Company.
 
 ## Reglas positivas
 
-* Etiquetar todos nombres de instituciones, empresas, organizaciones, etc.
+* Etiquetar todos los nombres de instituciones, empresas, organizaciones, etc.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -36,7 +36,7 @@ T1 Company 28 48
 
 ## Reglas negativas
 
-* NO etiquetar nombres de instituciones cuando se estén refiriendo a ellas como lugar:
+* NO etiquetar nombres de instituciones cuando se utilicen como referencia para una ubicación.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
@@ -46,7 +46,7 @@ T1 Company 35 55
 </div>
 
 
-* NO etiquetar todas las menciones de instituciones generales.
+* NO etiquetar todas las menciones genéricas de instituciones.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
@@ -81,14 +81,14 @@ T1 Company 33 37
 
 ## Caso típico.
 
-* En general las instituciones vienen mencionadas junto al lugar de uno de sus establecimientos. En este caso anotar sólo el nombre de la insitución:
+* En general, las instituciones aparecen mencionadas junto al lugar de uno de sus establecimientos. En este caso, se anotará el nombre de la institución y su ubicación como entidades diferentes (ver CITAR LOCATION). Por ejemplo, como "JUMBO" y "Providencia" en (11), en lugar de "JUMBO Providencia" en (9):
 
   * Incorrecto:
   
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 .... Vendedor de productos en JUMBO Providencia.  ...
-T1 Company 30 47 
+T1 Company 30 47
 ~~~
 </div>
 
@@ -105,6 +105,7 @@ T1 Company 22 50
 ~~~ ann
 .... Vendedor de productos en JUMBO de Providencia.  ...
 T1 Company 30 35 
+T2 Location 39 49
 ~~~
 </div>
 
@@ -112,10 +113,11 @@ T1 Company 30 35
 ~~~ ann
 ... FA: 19.03.2018 E: Registro Civil de La Florida. Se dirigía en micro a su casa y  ...
 T1 Company 22 36 
+T2 Location 39 49
 ~~~
 </div>
 
-* En caso de no saber si es que el lugar es parte o no del nombre de la institución. Anotar la entidad completa.
+* En caso de que no se pueda determinar si el lugar es parte o no del nombre de la institución, se anotará la entidad completa.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
