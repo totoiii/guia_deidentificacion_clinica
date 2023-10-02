@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "First_Name"
-shortdef: "Etiqueta para cualquier nombre de paciente, doctor, o cualquier persona mencionada"
+shortdef: "Etiqueta para cualquier nombre de paciente, doctor, o cualquier persona mencionada."
 ---
 
 
