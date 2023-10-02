@@ -60,7 +60,7 @@ T1 Date_Part 44 61
 ~~~
 </div>
 
-* NO etiquetar referencias a fechas con respecto a otra
+* NO etiquetar fechas inespecíficas que requieran un punto de referencia.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
