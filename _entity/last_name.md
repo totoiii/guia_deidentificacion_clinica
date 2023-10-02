@@ -1,13 +1,12 @@
 ---
 layout: entry
-title: "Last Name"
-shortdef: "Etiqueta para el Apellido de una persona"
+title: "Last_Name"
+shortdef: "Etiqueta para el apellido de una persona"
 ---
 
 ## Reglas positivas
 
 * Etiquetar todos los apellidos de personas, cada uno por separado.
-
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
