@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Last_Name"
-shortdef: "Etiqueta para el apellido de una persona"
+shortdef: "Etiqueta para el apellido de una persona."
 ---
 
 ## Reglas positivas
