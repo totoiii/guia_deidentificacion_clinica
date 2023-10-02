@@ -26,7 +26,7 @@ T1 Age 13 15
 
 ## Reglas negativas
 
-* NO etiquetar años que no tengan que ver con edad de personas
+* NO etiquetar años que no tengan que ver con edad de personas.
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... Adminisrativo en empresa financiera con 25 años de antiguedad...
@@ -41,7 +41,7 @@ T1 Last_Name 43 49
 ~~~
 </div>
 
-* NO Etiquetar referencias a edad o rangos etarios.
+* NO etiquetar referencias a edad o rangos etarios.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
