@@ -3,26 +3,23 @@ layout: entry
 title: Guía de Anotación de Información Personal en Textos Médicos.
 ---
 
-Luis Miranda (1),  Jocelyn Dunstan (1) 
+Luis Miranda (1),  Jocelyn Dunstan (1), (2) Fredy Núñez
 
 1. Departamento de Ciencia de la Computación de la Escuela de Ingeniería. Pontificia Universidad Católica de Chile.
-
+2. Departamento de Ciencias del Lenguaje de la Facultad de Letras. Pontificia Universidad Católica de Chile. 
 
 ## Introducción
-En un mundo cada vez más digitalizado, donde la información fluye constantemente a través de diversos canales y plataformas, la protección de la privacidad y la seguridad de los datos sensibles se ha vuelto una prioridad ineludible. La correcta anotación y etiquetado de información sensible es esencial para garantizar que se cumplan los más altos estándares de confidencialidad y se respeten las normativas legales establecidas para preservar la integridad de los datos personales y médicos. Esta guía tiene como objetivo proporcionar una instrucción sólida de la anotación manual de las entidades clave relacionadas con información personal clínica y cómo llevar a cabo este proceso de manera eficiente y precisa.
+En un mundo cada vez más digitalizado, donde la información fluye constantemente a través de diversos canales y plataformas, la protección de la privacidad y la seguridad de los datos sensibles se ha vuelto una prioridad ineludible. En consecuencia, la correcta anotación y etiquetado de información sensible es esencial para garantizar que se cumplan los más altos estándares de confidencialidad, a la vez que se respeten las normativas legales establecidas para preservar la integridad de los datos personales y médicos. Así, esta guía provee instrucciones eficientes, precisas y bien delimitadas para llevar a cabo del proceso de anotación manual de las entidades clave relacionadas con información personal clínica. 
 
-Este proyecto busca crear un cuerpo de texto (corpus) etiquetado con información persona clínica. Esta guía de etiquetado busca apoyar la labor de los(as) etiquetadores(as) y se utilizará el software [INCEpTION](https://inception-project.github.io/), en donde la interfaz es de la siguiente forma:
+Este proyecto busca crear un conjunto de datos textuales (corpus) etiquetado con información persona clínica. A partir de lo anterior, esta guía de etiquetado es un apoyo para la labor de los(as) etiquetadores(as). En su desarrollo se utilizará el software [INCEpTION](https://inception-project.github.io/), en donde la interfaz es de la siguiente forma:
 
 <img src="https://github.com/totoiii/clinical_deidentification_guideline/raw/master/static/img/image.png" width="100%"/>
 
+### Ley N° [19.628](https://www.bcn.cl/leychile/navegar?idNorma=141599) sobre protección de la vida privada
 
-### Ley N° [19.628](https://www.bcn.cl/leychile/navegar?idNorma=141599) sobre Protección de la Vida Privada
+La privacidad de los datos de pacientes es una preocupación central en el ámbito de la salud en Chile. Al respecto, la ley chilena establece normativas específicas para proteger la confidencialidad de la información médica y personal de los pacientes. La Ley N° 19.628 sobre protección de la vida privada regula la recopilación y el tratamiento de datos de carácter peronal. Este derecho distingue los siguientes conceptos:
 
-La privacidad de los datos de pacientes es una preocupación central en el ámbito de la salud en Chile. La ley chilena establece normativas específicas para proteger la confidencialidad de la información médica y personal de los pacientes. La Ley N° 19.628 sobre Protección de la Vida Privada regula la recopilación, en donde se definen los conceptos de :
-
-* Información personal:
-  
- La información personal se refiere a cualquier dato o conjunto de datos que puede identificar directa o indirectamente a una persona natural. Esto incluye datos como nombres, apellidos, números de identificación, direcciones, números de teléfono, direcciones de correo electrónico, fechas de nacimiento, entre otros. En esencia, es cualquier información que permita identificar o relacionar a una persona específica.el almacenamiento y el uso de datos personales en el país.
+* Información personal: refiere a cualquier dato o conjunto de datos a partir del cual es posible identificar directa o indirectamente a una persona natural. Esto incluye datos como nombres, apellidos, números de identificación, direcciones, números de teléfono, direcciones de correo electrónico, fechas de nacimiento, entre otros. En definitiva, se trata de cualquier información que permita identificar o relacionar a una persona específica. el almacenamiento y el uso de datos personales en el país.
  
 * Información sensible:
   
