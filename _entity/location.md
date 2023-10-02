@@ -59,14 +59,6 @@ T1 Location 36 52
 ~~~
 </div>
 
-* Etiquetar menciones de instituciones cuando se estén refiriendo a estas como un lugar.
-
-<div class="annotation-correct" markdown="1">
-~~~ ann
-... Al iniciar el día laboral iba de camino al JUMBO en la mañana del martes...
-T1 Location 47 52 
-~~~
-</div>
 
 ## Reglas negativas
 
@@ -99,3 +91,16 @@ T1 Location 21 34
 T1 Location 38 45 
 ~~~
 </div>
+
+# Caso típico
+
+*Muchas veces, se puede confundir la etiqueta Location con Company, ya que a veces en el texto se puede mencionar el nombre de una institución, pero se refieren a esta como un lugar. En este caso, etiquetar menciones de instituciones cuando se estén refiriendo a estas como un lugar.
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Al iniciar el día laboral iba de camino al JUMBO en la mañana del martes...
+T1 Location 47 52 
+~~~
+
+
+
