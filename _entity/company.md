@@ -1,10 +1,10 @@
 ---
 layout: entry
 title: "Company"
-shortdef: "Nombre o mención de instituciones."
+shortdef: "Etiqueta para nombres de instituciones."
 ---
 
-Una institución corresponde a una organización, estructura o entidad establecida dentro de una sociedad para cumplir con una función específica. Estas entidades pueden ser de naturaleza pública o privada y abarcan una amplia gama de campos, como la educación, la religión, la política, la economía y la cultura, entre otras. Exceptuando las instituciones de salud (ver Reglas negativas)
+Una institución corresponde a una organización, estructura o entidad establecida dentro de una sociedad para cumplir con una función específica. Estas entidades pueden ser de naturaleza pública o privada y abarcan una amplia gama de campos, como la educación, la religión, la política, la economía y la cultura, entre otras.
 
 A continuación se encuentran las reglas de anotación de Company.
 
@@ -55,7 +55,7 @@ T1 Company 25 32
 ~~~
 </div>
 
-<div class="annotation-correct" markdown="1">
+<div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... W: empresa constructora. O: Maestro. Mientras trabajaba le entró nube de polvo en el ojo...
 T1 Company 7 27 
@@ -81,7 +81,7 @@ T1 Company 33 37
 
 ## Caso típico.
 
-* En general las instituciones vienen mencionadas junto al lugar en el que se encuentran. En este caso anotar sólo el nombre de la insitución:
+* En general las instituciones vienen mencionadas junto al lugar de uno de sus establecimientos. En este caso anotar sólo el nombre de la insitución:
 
   * Incorrecto:
   
@@ -99,7 +99,7 @@ T1 Company 22 50
 ~~~
 </div>
 
-  * Correcto:
+   * Correcto:
   
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -120,7 +120,7 @@ T1 Company 22 36
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 .... TRABAJA EN AGRICOLA SANTA ROSA.  ...
-T1 Company 16 35
+T1 Company 16 35 
 ~~~
 </div>
 
