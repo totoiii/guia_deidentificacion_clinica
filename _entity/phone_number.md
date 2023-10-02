@@ -1,10 +1,10 @@
 ---
 layout: entry
 title: "Phone_Number"
-shortdef: "Etiqueta para el número de telefónico"
+shortdef: "Etiqueta para el número de telefónico."
 ---
 
-En Chile, un número telefónico fijo tiene 8 dígitos, mientras que un número de teléfono móvil tiene 9 dígitos. Por lo tanto, el largo de un número telefónico en Chile puede ser de 8 o 9 dígitos, dependiendo de si es fijo o móvil, respectivamente.
+En general, en Chile el largo de un número telefónico en Chile puede ser de 8 o 9 dígitos, dependiendo de si es fijo o móvil, respectivamente.
 
 ## Reglas positivas
 
