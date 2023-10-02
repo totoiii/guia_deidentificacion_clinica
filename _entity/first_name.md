@@ -33,3 +33,14 @@ T2 First_Name 48 55
 T1 First_Name 27 33 
 ~~~
 </div>
+
+## Reglas negativas 
+
+* No etiquetar los tratamientos, como Don, Doña, Sra., Srta., etc.
+
+<div class="annotation-incorrect" markdown="1">
+~~~ ann
+... Pcte fue insultado por Don Pepito jefe de área...
+T1 First_Name 27 37 
+~~~
+</div>
