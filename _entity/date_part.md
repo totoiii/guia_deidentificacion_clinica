@@ -4,11 +4,11 @@ title: "Date Part"
 shortdef: "Etiqueta para componente(s) de una fecha."
 ---
 
-Una fecha se comprende como cualquier expresión que tenga un día, mes y año especifico. Date_part correspondería a una expresión que tenga una o varias componentes de una fecha, pero si las tiene todas, corresponde a la etiqueta [Full_Date](../_entity/full_date).
+Una fecha se define como cualquier expresión que contenga un día, mes y año específicos. Date_part corresponde a una expresión que presente uno o varios componentes de una fecha. Si las presenta todas, corresponde a la etiqueta [Full_Date](../_entity/full_date).
 
 ## Reglas positivas
 
-* Etiquetar todas las combinaciones de día, mes y/o año, excepto cuando se encuentren las 3, ya que dicha mención corresponde a la entidad [Full_Date](../_entity/full_date)
+* Etiquetar todas las combinaciones de día, mes y/o año, excepto cuando se encuentren las tres, ya que dicha mención corresponde a la entidad [Full_Date](../_entity/full_date)
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -44,7 +44,7 @@ T2 Date_Part 24 33
 
 ## Reglas negativas
 
-* NO etiquetar duraciones o repeticiones de intervalos de tiempo.
+* NO etiquetar la duración o repetición de intervalos de tiempo.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
