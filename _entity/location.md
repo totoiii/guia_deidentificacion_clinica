@@ -9,7 +9,7 @@ Esta entidad corresponde a expresión que represente lugares físicos o geográf
 
 ## Reglas positivas
 
-* Anotar cualquier subdivision geográfica más pequeña que un país, incluida la dirección, la ciudad, población, comuna, región y el código postal.
+* Anotar cualquier subdivision geográfica más pequeña o igual que un país, incluida la dirección, la ciudad, población, comuna, región y el código postal.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
