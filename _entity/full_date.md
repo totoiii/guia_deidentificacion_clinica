@@ -5,11 +5,11 @@ shortdef: "Etiqueta para una fecha exacta."
 ---
 
 
-Una fecha se define como representación específica de un punto en el tiempo, compuesta por el día, mes y año.
+Una fecha se define como la representación un punto específico en el tiempo, compuesta por el día, mes y año.
 
 ## Reglas positivas
 
-* Etiquetar cualquier fecha específica.
+* Etiquetar cualquier fecha específica, ya sea en prosa como en (1), o en cifras como en (2).
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -26,7 +26,7 @@ T1 Full_Date 33 43
 </div>
 
 <div class="annotation-correct" markdown="1">
-Caso típico: dividir en dos etiquetas (revisar [Date_Part](../_entity/Date_part))
+Caso típico: Se dividirá en dos etiquetas (revisar [Date_Part](../_entity/Date_part)).
 ~~~ ann
 ...Fecha Accidente: martes 20/05/2021...
 T1 Full_Date 27 37  
