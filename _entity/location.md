@@ -9,7 +9,7 @@ Esta entidad corresponde a expresión que represente lugares físicos o geográf
 
 ## Reglas positivas
 
-* Anotar cualquier subdivision geográfica más pequeña o igual que un país, incluida la dirección, la ciudad, población, comuna, región y el código postal.
+* Etiquetar cualquier subdivision geográfica más pequeña o igual que un país, incluida la dirección, la ciudad, población, comuna, región y el código postal.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -18,7 +18,7 @@ T1 Location 16 33
 ~~~
 </div>
 
-* Anotar la descripción mas extensa de lugar al que se refiera.
+* Etiquetar la descripción mas extensa de lugar al que se refiera.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -27,7 +27,7 @@ T1 Location 14 37
 ~~~
 </div>
 
-* Anotar menciones lugares identificables con una subdivisión geográfica.
+* Etiquetar menciones lugares identificables con una subdivisión geográfica.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -43,7 +43,7 @@ T1 Location 27 43
 ~~~
 </div>
 
-* Anotar menciones a nombres de transportes públicos, ya que son identificables con una subdivisión geográfica.
+* Etiquetar menciones a nombres de transportes públicos, ya que son identificables con una subdivisión geográfica.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -70,7 +70,7 @@ T1 Location 47 52
 
 ## Reglas negativas
 
-* No anotar lugares físicos o geográficos generales
+* No etiquetar lugares físicos o geográficos generales
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
