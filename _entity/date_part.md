@@ -1,10 +1,10 @@
 ---
 layout: entry
 title: "Date Part"
-shortdef: "Etiqueta para componente(s) de una fecha o referencia a una."
+shortdef: "Etiqueta para componente(s) de una fecha."
 ---
 
-Una fecha se comprende como cualquier expresión que tenga un día, mes y año especifico. Date_part correspondería a una expresión que tenga una o varias componentes de una fecha. También pueden ser expresiones que hagan referencia a una fecha específica.
+Una fecha se comprende como cualquier expresión que tenga un día, mes y año especifico. Date_part correspondería a una expresión que tenga una o varias componentes de una fecha, pero si las tiene todas, corresponde a la etiqueta [Full_Date](../_entity/full_date).
 
 ## Reglas positivas
 
@@ -60,7 +60,7 @@ T1 Date_Part 44 61
 ~~~
 </div>
 
-* NO Etiquetar referencias a fechas con respecto a otra
+* NO etiquetar referencias a fechas con respecto a otra
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
