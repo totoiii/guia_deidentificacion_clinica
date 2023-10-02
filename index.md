@@ -3,7 +3,7 @@ layout: entry
 title: Guía de Anotación de Información Personal en Textos Médicos.
 ---
 
-Luis Miranda (1),  Jocelyn Dunstan (1), (2) Fredy Núñez
+Luis Miranda (1), Jocelyn Dunstan (1), Fredy Núñez (2)
 
 1. Departamento de Ciencia de la Computación de la Escuela de Ingeniería. Pontificia Universidad Católica de Chile.
 2. Departamento de Ciencias del Lenguaje de la Facultad de Letras. Pontificia Universidad Católica de Chile. 
