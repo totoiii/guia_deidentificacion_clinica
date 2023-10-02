@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Age"
-shortdef: "Etiqueta para la edad de una persona o una referencia al rango etario de ella."
+shortdef: "Etiqueta para la edad de una persona."
 ---
 
 ## Reglas positivas
