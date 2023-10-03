@@ -127,7 +127,7 @@ T1 Time 75 85
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
-...Paciente estuvo en sucursal La Reina, en donde mientras trabajaba se accidentó...
+...Paciente estuvo en Jumbo La Reina, en donde mientras trabajaba se accidentó...
 T1 Company 22 39 
 ~~~
 </div>.
@@ -136,7 +136,7 @@ T1 Company 22 39
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
-...Paciente estuvo en sucursal La Reina, en donde mientras trabajaba se accidentó...
+...Paciente estuvo en Jumbo La Reina, en donde mientras trabajaba se accidentó...
 T1 Company 22 30 
 T2 Location 31 39 
 ~~~
