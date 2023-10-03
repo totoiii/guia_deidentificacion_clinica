@@ -34,14 +34,14 @@ T1 Occupation 24 52
 ## Reglas negativas
 
 * No incluir el nombre de la institución o empresa en la que trabaja.
-  ** Incorrecto
+  * Incorrecto
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
 ... Ocupacion: auxiliar de colegio b-63. Acude debido a que hoy siente malestar...
 T1 Occupation 15 39 
 ~~~
 </div>
-    ** Correcto
+    * Correcto
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... Ocupacion: auxiliar de colegio b-63. Acude debido a que hoy siente malestar...
