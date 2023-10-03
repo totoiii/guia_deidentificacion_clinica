@@ -4,7 +4,7 @@ title: "Phone_Number"
 shortdef: "Etiqueta para el número de telefónico."
 ---
 
-En general, en Chile el largo de un número telefónico en Chile puede ser de 8 o 9 dígitos, dependiendo de si es fijo o móvil, respectivamente.
+En Chile, la extensión de un número telefónico en Chile puede ser de 8 o 9 dígitos, dependiendo de si es fijo o móvil, respectivamente. Los números de emergencia, como la policia o bomberos, son de 3 dígitos. 
 
 ## Reglas positivas
 
