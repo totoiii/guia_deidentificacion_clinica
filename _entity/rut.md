@@ -1,10 +1,10 @@
 ---
 layout: entry
 title: "RUT"
-shortdef: "Etiqueta para Rol único Unitario (RUT)."
+shortdef: "Etiqueta para Rol único Tributario (RUT)."
 ---
 
-El RUT (Rol Único Tributario) en Chile es un número único de identificación de personas o empresas. 
+El RUT (Rol Único Tributario) en Chile es un número único de identificación de personas naturales o empresas. 
 
 ## Reglas positivas
 
