@@ -4,12 +4,12 @@ title: "Location"
 shortdef: "Etiqueta para cualquier subdivision geográfica encontrable."
 ---
 
-Esta entidad corresponde a expresión que represente lugares físicos o geográficos especificos. Estas entidades pueden ser nombres de ciudades, países, estados, regiones, puntos de referencia, direcciones, coordenadas geográficas y cualquier otro tipo de ubicación física identificable en un texto.
+Esta entidad corresponde a expresión que represente lugares físicos o geográficos especificos. Estas entidades pueden ser nombres de ciudades, países, estados, regiones, puntos de referencia, direcciones, coordenadas geográficas o cualquier otro tipo de ubicación física identificable en un texto.
 
 
 ## Reglas positivas
 
-* Etiquetar cualquier subdivision geográfica más pequeña o igual que un país, incluida la dirección, la ciudad, población, comuna, región y el código postal.
+* Etiquetar cualquier subdivision geográfica más pequeña o igual que un país, incluidas dirección, ciudad, población, comuna, región o código postal.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -18,7 +18,7 @@ T1 Location 16 33
 ~~~
 </div>
 
-* Etiquetar la descripción mas extensa de lugar al que se refiera.
+* Etiquetar la descripción mas extensa del lugar al que se refiera.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -27,7 +27,7 @@ T1 Location 14 37
 ~~~
 </div>
 
-* Etiquetar menciones lugares identificables con una subdivisión geográfica.
+* Etiquetar menciones a lugares identificables con una subdivisión geográfica.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
@@ -62,7 +62,7 @@ T1 Location 36 52
 
 ## Reglas negativas
 
-* No etiquetar lugares físicos o geográficos generales
+* No etiquetar lugares físicos o geográficos genéricos.
 
 <div class="annotation-incorrect" markdown="1">
 ~~~ ann
@@ -94,7 +94,7 @@ T1 Location 38 45
 
 # Caso típico
 
-*Muchas veces, se puede confundir la etiqueta Location con Company, ya que a veces en el texto se puede mencionar el nombre de una institución, pero se refieren a esta como un lugar. En este caso, etiquetar menciones de instituciones cuando se estén refiriendo a estas como un lugar.
+*En algunos casos, se pueden confundir las etiquetas Location y Company. Esto ocurre ya que a veces, en el texto se hacer referencia a una institución como si fuese un lugar (metonimia). En estos casos, se etiquetarán menciones a instituciones cuando se estén refiriendo a estas como un lugar.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
