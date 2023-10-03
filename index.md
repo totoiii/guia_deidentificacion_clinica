@@ -1,4 +1,3 @@
-Probar ahoraVolver a preguntar más tardeNo volver a mostrar
 ---
 layout: entry
 title: Guía de Anotación de Información Personal en Textos Médicos.
