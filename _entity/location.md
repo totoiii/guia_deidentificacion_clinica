@@ -94,7 +94,7 @@ T1 Location 38 45
 
 # Caso típico
 
-*En algunos casos, se pueden confundir las etiquetas Location y Company. Esto ocurre ya que a veces, en el texto se hacer referencia a una institución como si fuese un lugar (metonimia). En estos casos, se etiquetarán menciones a instituciones cuando se estén refiriendo a estas como un lugar.
+* En algunos casos, se pueden confundir las etiquetas Location y Company. Esto ocurre ya que a veces, en el texto se hacer referencia a una institución como si fuese un lugar (metonimia). En estos casos, se etiquetarán menciones a instituciones cuando se estén refiriendo a estas como un lugar.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
