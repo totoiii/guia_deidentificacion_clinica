@@ -1,3 +1,4 @@
+Probar ahoraVolver a preguntar más tardeNo volver a mostrar
 ---
 layout: entry
 title: Guía de Anotación de Información Personal en Textos Médicos.
@@ -34,7 +35,7 @@ La ley garantiza a los pacientes una serie de derechos fundamentales en relació
 La ley enfatiza la importancia del consentimiento informado como el derecho de los pacientes a recibir información completa y comprensible, antes de someterse a cualquier procedimiento médico, acerca de su diagnóstico, opciones de tratamiento, riesgos y beneficios. Este consentimiento debe ser otorgado voluntaria y explícitamente por el paciente, después de haber recibido la información adecuada por parte de un profesional de la salud. 
 
 * Privacidad y Confidencialidad:
-La ley establece normas estrictas para la confidencialidad de los datos clínicos de los pacientes. Los profesionales de la salud y las instituciones médicas deben garantizar que la información médica sea manejada de manera segura, y que solo sea compartida con aquellos que tengan la autorización correspondiente. Como se cita en el artículo 3:
+La ley establece normas estrictas para la confidencialidad de los datos clínicos de los pacientes. Los profesionales de la salud y las instituciones médicas deben garantizar que la información clínica sea manejada de manera segura, y compartida solo con quienes tengan la autorización correspondiente. Como se cita en el artículo 3:
 
   *"Para los efectos del tratamiento de datos personales,
 se entenderá que el prestador es el responsable de llevar
@@ -46,7 +47,7 @@ ley N° 19.628 sobre protección de la vida privada."*
 
 
 ### Ley de Portabilidad y Responsabilidad de Seguros de Salud  [HIPAA](https://www.hhs.gov/hipaa/index.html) en USA:
-Dentro del ámbito médico, la protected health information (PHI), o información de salud protegida, se refiere a la información médica, de salud mental o de historias clínicas que se encuentra protegida por la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA) en los Estados Unidos de América. Esta ley establece normas rigurosas para la protección de la privacidad y la seguridad de los datos médicos y personales de los pacientes.
+Dentro del ámbito médico, la información de salud protegida (protected health information, o PHI por sus siglas en inglés), se refiere a la información médica, de salud mental o de historias clínicas que se encuentra protegida por la Ley de Portabilidad y Responsabilidad de Seguros de Salud (HIPAA) en los Estados Unidos de América. Esta ley establece normas rigurosas para la protección de la privacidad y la seguridad de los datos médicos y personales de los pacientes.
 La HIPAA identifica un conjunto específico de 18 categorías de datos, conocidas como los "18 PHI Identifiers". Estas categorías, a su vez, son consideradas como especialmente sensibles y deben recibir una protección adicional. Estos identificadores abarcan información que podría utilizarse para identificar a un individuo en particular. Algunos de los identificadores incluyen:
 
  * 1. Nombre
@@ -68,9 +69,9 @@ La HIPAA identifica un conjunto específico de 18 categorías de datos, conocida
  * 17. Imagen fotográfica: las imágenes fotográficas no se limitan a imágenes del rostro
  * 18. Cualquier otra característica que pueda identificar de manera única a un individuo
 
-La HIPAA establece rigurosas pautas para la protección la información de salud en general y de estos indentificadores en particular. Esto incluye la implementación de medidas de seguridad física, administrativa y técnica para prevenir el acceso no autorizado, el uso indebido y la divulgación de datos médicos y personales. El cumplimiento de estas regulaciones es esencial para salvaguardar la privacidad y la confidencialidad de los pacientes, junto con su información médica en los Estados Unidos de América.
+La HIPAA establece rigurosas pautas para la protección de la información de salud en general y de estos indentificadores en particular. Esto incluye la implementación de medidas de seguridad física, administrativa y técnica para prevenir el acceso no autorizado, el uso indebido y la divulgación de datos médicos y personales. El cumplimiento de estas regulaciones es esencial para salvaguardar la privacidad y la confidencialidad de los pacientes, junto con su información médica en los Estados Unidos de América.
 
-Estos 18 identificadores PHI han sido adaptados para favorecer para su aplicación en el contexto chileno, especialmente en el ámbito de los textos médicos vinculados a la Asociación Chilena de Seguridad (ACHS), que incluyen relatos de admisión y anamnesis de accidentes de trabajo o trayecto. Estos textos, que son fundamentales para la evaluación y el seguimiento de casos clínicos, deben ser tratados con la misma rigurosidad en cuanto a la protección de datos personales/sensibles. La adopción de medidas de seguridad adecuadas, tanto físicas como tecnológicas, es fundamental para la preservación de la privacidad y la confidencialidad de los pacientes, lo que garantiza que su información médica se encuentra protegida y alineada con los más altos estándares de seguridad y privacidad.
+Estos 18 identificadores PHI han sido adaptados para favorecer para su aplicación en el contexto chileno, especialmente en el ámbito de los textos médicos vinculados a la Asociación Chilena de Seguridad (ACHS), que incluyen relatos de admisión y anamnesis de accidentes de trabajo o trayecto. Estos textos, que son fundamentales para la evaluación y el seguimiento de casos clínicos, deben ser tratados con la misma rigurosidad en cuanto a la protección de datos personales/sensibles. La adopción de medidas de seguridad adecuadas, tanto físicas como tecnológicas, es fundamental para la preservación de la privacidad y la confidencialidad de los pacientes, lo que garantiza que su información médica se encuentre protegida y alineada con los más altos estándares de seguridad y privacidad.
 
 ### Textos Médicos, Anamnesis y Relato de Admisión:
 En la [Asociación Chilena de Seguridad](https://www.achs.cl/) (ACHS), los textos médicos adquieren una relevancia significativa en situaciones relacionadas con accidentes de trabajo y trayecto. Uno de estos textos es la anamnesis, definida como el conjunto de preguntas dirigidas al paciente para obtener información médica relevante sobre su historial de salud, síntomas y condiciones preexistentes. A continuación, se puede ver un ejemplo de anamnesis:
@@ -83,7 +84,7 @@ Otro texto médico es el relato de admisión. En el caso de la ACHS, el relato d
 
 * AL MOMENTO DEL ACCIDENTE ESTABA CAMINO A SU TRABAJO . LO QUE OCURRIO FUE QUE BAJANDO ESCALERAS DE ESTACION DE METRO SE RESBALA CAYENDO AL PISO. EL ACCIDENTE OCURRIO CON OTROS. NO TIENE TESTIGOS DE SU ACCIDENTE, AVISO A LA EMPRESA, EL NOMBRE Y CARGO  DE LA PERSONA ES ANDREA CARRASCO, SUPERVISORA , FECHA Y HORA EN QUE AVISO A SU EMPRESA SOBRE EL ACCIDENTE: 02.10.2018 A LAS 09:40:00
 
-Cada ejemplo que se utilizó en esta guía de anotación fue extraído desde corpus o bien creado con fines explicativos a partir del mismo corpus (toda la información personal fué modificada).
+Cada ejemplo que se utilizó en esta guía de anotación fue extraído desde el corpus o bien creado con fines explicativos a partir del mismo corpus (toda la información personal fue modificada).
 
 ## Reglas de anotación manual de entidades
 
@@ -91,7 +92,7 @@ Las premisas fundamentales que rigen todas las reglas de anotación en este prot
 
   *  **Anotar la expresión más corta y general posible**, considerando que aún así se debe describir completamente la entidad. En este sentido, las palabras modificadoras deben ser excluidas. Esto ayuda a preservar la coherencia y la fluidez del texto después de la anonimización.
 
-  *  **Mantener el contexto clínico**.  resguardando que las anotaciones de entidades nombradas en los textos clínicos conserven la información médica y contextual que acompaña a esas entidades, ya que estos textos a menudo contienen información médica detallada que puede ser crucial para la comprensión y el tratamiento adecuado de los pacientes. 
+  *  **Mantener el contexto clínico**, resguardando que las anotaciones de entidades nombradas en los textos clínicos conserven la información médica y contextual que acompaña a esas entidades, ya que estos textos a menudo contienen información médica detallada que puede ser crucial para la comprensión y el tratamiento adecuado de los pacientes. 
 
 Las reglas de anotación se pueden clasificar en 4 tipos:
 * Reglas generales (Reglas-G): reglas positivas y negativas que aplican para todas las etiquetas de menciones (incluyen reglas ortotipográficas generales).
@@ -121,7 +122,7 @@ T1 Time 75 85
 ~~~
 </div>
 
-* Anotar como una sola entidad cada vez que se haga mención a una entidad nombrada (que se asocie con alguna de las entidades definidas en esta guía) de manera general asociada a a una especificación de esta misma.
+* Anotar como una sola entidad cada vez que se haga mención a una entidad nombrada que se pueda asociar, de manera general, con alguna de las entidades definidas en esta guía, como se muestra en (3), evitando una sobreespecificación de la misma, como se muestra en (4).
 
   * Correcto:
 
