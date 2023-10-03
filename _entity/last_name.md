@@ -23,7 +23,7 @@ T2 Last_Name 45 49
 ~~~
 </div>
 
-* Etiquetar apellidos compuestos cómo un sólo apellido.
+* Etiquetar apellidos compuestos como un solo apellido.
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
