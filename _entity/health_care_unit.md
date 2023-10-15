@@ -33,3 +33,21 @@ T1 Health_Care_Unit 24 28
 ## Caso Típico
 
 * En general, la manera de hacer referencia a los nombres de instituciones de salud en Chile es: nombre genérico + lugar en el que se encuentra, como por ejemplo (EJEMPLO). En estos casos, se etiquetará la entidad completa ya que corresponde íntegramente al nombre de la institución de salud referida.
+
+## Caso Típico
+
+* En ocasiones, las anamnesis vienen incialmente nombrando a la agencia en donde se llevo a cabo la consulta clínica, esto se debe anotar como Health_Care_Unit debido a que pertenece a una institución de salud.
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... Agencia Concepción. PCTE ACUDE EN LA MAÑANA POR ...
+T1 Health_Care_Unit 24 28 
+~~~
+</div>
+
+<div class="annotation-correct" markdown="1">
+~~~ ann
+... AG PTO MONT. ALERGIAS NO. EDAD 28 AÑOS ...
+T1 Health_Care_Unit 24 28 
+~~~
+</div>
