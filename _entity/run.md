@@ -14,14 +14,14 @@ El RUN (Rol Único Nacional) o cédula nacional de identidad en Chile es un núm
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... RUN PCTE: 10755042...
-T1 RUT 14 22 
+T1 RUN 14 22 
 ~~~
 </div>
 
 <div class="annotation-correct" markdown="1">
 ~~~ ann
 ... paciente 17784042-2 se presenta hoy ...
-T1 RUT 13 23 
+T1 RUN 13 23 
 ~~~
 </div>
 
