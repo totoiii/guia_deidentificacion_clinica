@@ -22,9 +22,9 @@ T1 Health_Care_Unit 24 28
 ~~~
 </div>
 
-* Etiquetar la descripción del lugar como parte de la institución de salud, en caso de que esta información aparezca pospuesta, como en (ejemplo)
+* Etiquetar la descripción del lugar como parte de la institución de salud, en caso de que esta información aparezca pospuesta.
 
-* Etiquetar el nombre de la institución de salud aunque se esté refiriendo a esta como un lugar, como en (ej)
+* Etiquetar el nombre de la institución de salud aunque se esté refiriendo a esta como un lugar.
 
 ## Reglas negativas
 
