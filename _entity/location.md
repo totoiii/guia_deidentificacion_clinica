@@ -101,6 +101,6 @@ T1 Location 38 45
 ... Al iniciar el día laboral iba de camino al JUMBO en la mañana del martes...
 T1 Location 47 52 
 ~~~
-
+</div>
 
 
