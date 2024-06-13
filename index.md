@@ -1,12 +1,14 @@
 ---
 layout: entry
-title: Guía de Anotación de Información Personal en Textos Médicos.
+title: Guía de Anotación de Información Personal en Textos Médicos. 
 ---
 
 Luis Miranda (1), Jocelyn Dunstan (1), Fredy Núñez (2)
 
 1. Departamento de Ciencia de la Computación de la Escuela de Ingeniería. Pontificia Universidad Católica de Chile.
 2. Departamento de Ciencias del Lenguaje de la Facultad de Letras. Pontificia Universidad Católica de Chile. 
+
+English Version:  [Clinical Deidentification Guideline](https://totoiii.github.io/clinical_deidentification_guideline/)
 
 ## Introducción
 En un mundo cada vez más digitalizado, donde la información fluye constantemente a través de diversos canales y plataformas, la protección de la privacidad y la seguridad de los datos sensibles se ha vuelto una prioridad ineludible. En consecuencia, la correcta anotación y etiquetado de información sensible es esencial para garantizar que se cumplan los más altos estándares de confidencialidad, a la vez que se respeten las normativas legales establecidas para preservar la integridad de los datos personales y médicos. Así, esta guía provee instrucciones eficientes, precisas y bien delimitadas para llevar a cabo el proceso de anotación manual de las entidades clave relacionadas con información personal clínica. 
